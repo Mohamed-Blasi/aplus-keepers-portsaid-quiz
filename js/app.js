@@ -140,6 +140,8 @@
       container.innerHTML = renderQuickTools() + renderSubjectsSection();
     } else if (state.activeTab === "lectures") {
       container.innerHTML = renderLecturesSection();
+    } else if (state.activeTab === "practical") {
+      container.innerHTML = renderPracticalSection();
     } else if (state.activeTab === "exams") {
       container.innerHTML = renderQuickTools() + renderExamsSection();
     } else if (state.activeTab === "essay") {
@@ -448,6 +450,69 @@
             📢 قناة الدفعة
           </a>
         </div>
+      </div>
+
+      <div class="cards-grid">
+        ${cardsHtml}
+      </div>
+    `;
+  }
+
+  // ==========================================
+  // 1C. PRACTICAL EXPLANATION SECTION (شرح العملي)
+  // ==========================================
+  function renderPracticalSection() {
+    const practicalIndex = window.APP_CONFIG.practicalIndex || [];
+
+    const cardsHtml = practicalIndex
+      .map((sec) => {
+        const itemsHtml = sec.items
+          .map(
+            (item) => `
+            <a
+              href="${item.url}"
+              target="_blank"
+              rel="noopener"
+              style="display:flex; align-items:center; justify-content:space-between; gap:10px; padding:11px 14px; border-radius:10px; background:var(--bg-elevated); border:1px solid var(--border-color); color:var(--text-main); font-weight:700; font-size:0.92rem; transition:var(--transition);"
+            >
+              <span class="ltr-text" style="text-align:left; flex:1;">🔬 ${item.title}</span>
+              <span class="btn btn-telegram btn-sm" style="padding:5px 10px; font-size:0.78rem;">فتح العملي ⬅</span>
+            </a>
+          `
+          )
+          .join("");
+
+        return `
+          <div class="subject-card">
+            <div>
+              <div class="card-top-row">
+                <div class="subject-icon-box" style="background: ${sec.bgLight}; color: ${sec.color};">
+                  ${sec.icon}
+                </div>
+                <span class="card-badge">عملي #${sec.num}</span>
+              </div>
+
+              <h3 class="card-title">${sec.num}. ${sec.icon} ${sec.title}</h3>
+              <div style="margin-top:12px; display:flex; flex-direction:column; gap:8px;">
+                ${itemsHtml}
+              </div>
+            </div>
+          </div>
+        `;
+      })
+      .join("");
+
+    return `
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">🔬 شرح العملي (Practical & OSPE — حكومي وأهلية)</h2>
+          <p style="font-size:0.92rem; color:var(--text-muted); margin-top:4px;">
+            جميع فيديوهات ومراجعات العملي للبلوك الأول مجمعة في صفحة واحدة منفصلة.
+          </p>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="switchTab('lectures')">
+          🎧 العودة لفهرس شرح المحاضرات
+        </button>
       </div>
 
       <div class="cards-grid">

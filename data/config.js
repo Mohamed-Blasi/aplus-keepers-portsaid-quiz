@@ -313,6 +313,74 @@ window.APP_CONFIG = {
     }
   ],
 
+  // فهرس شرح العملي (Practical & OSPE)
+  practicalIndex: [
+    {
+      num: 1,
+      icon: "🫀",
+      title: "الفسيولوجي (Physiology)",
+      color: "#e11d48",
+      bgLight: "rgba(225, 29, 72, 0.1)",
+      items: [
+        { title: "Physiology – Lab Devices", url: "https://t.me/AplusKeepersClass1_2027/75" },
+        { title: "Physiology – Pre-Lab Organ System", url: "https://t.me/AplusKeepersClass1_2027/77" }
+      ]
+    },
+    {
+      num: 2,
+      icon: "🪱",
+      title: "الباراسيتولوجي (Parasitology)",
+      color: "#d97706",
+      bgLight: "rgba(217, 119, 6, 0.1)",
+      items: [
+        { title: "Parasitology – Pre-Lab 1 (حكومية)", url: "https://t.me/AplusKeepersClass1_2027/93" },
+        { title: "Parasitology – Pre-Lab (أهلية) (مدة الفيديو 15 دقيقة)", url: "https://t.me/AplusKeepersClass1_2027/94" }
+      ]
+    },
+    {
+      num: 3,
+      icon: "🔬",
+      title: "الهستولوجي (Histology)",
+      color: "#db2777",
+      bgLight: "rgba(219, 39, 119, 0.1)",
+      items: [
+        { title: "OSPE Histology (عملي الهستو كاملاً) (مراجعة OSPE في ربع ساعة)", url: "https://t.me/AplusKeepersClass1_2027/95" }
+      ]
+    },
+    {
+      num: 4,
+      icon: "🧫",
+      title: "المايكروبيولوجي (Microbiology)",
+      color: "#059669",
+      bgLight: "rgba(5, 150, 105, 0.1)",
+      items: [
+        { title: "Microbiology – Pre-Lab (حكومية) (عملي المايكرو في نصف ساعة)", url: "https://t.me/AplusKeepersClass1_2027/97" },
+        { title: "Microbiology – Pre-Lab (أهلية)", url: "https://t.me/AplusKeepersClass1_2027/98" }
+      ]
+    },
+    {
+      num: 5,
+      icon: "🦴",
+      title: "الأناتومي (Anatomy)",
+      color: "#dc2626",
+      bgLight: "rgba(220, 38, 38, 0.1)",
+      items: [
+        { title: "Anatomy – Practical (عملي الأناتومي كاملاً) (شرح عملي الأناتومي في نصف ساعة)", url: "https://t.me/AplusKeepersClass1_2027/99" }
+      ]
+    },
+    {
+      num: 6,
+      icon: "🧪",
+      title: "الكيمياء الحيوية (Biochemistry)",
+      color: "#2563eb",
+      bgLight: "rgba(37, 99, 235, 0.1)",
+      items: [
+        { title: "Biochemistry – Practical (Part 1)", url: "https://t.me/AplusKeepersClass1_2027/100" },
+        { title: "Biochemistry – Practical (Part 2)", url: "https://t.me/AplusKeepersClass1_2027/101" }
+      ]
+    }
+  ],
+
   sources: [
     // --- PAST EXAMS ---
     {
