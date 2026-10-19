@@ -1132,6 +1132,7 @@
     if (state.quiz.timerEnabled) {
       startQuizTimer();
     }
+    trackEventSilent("quizzes_started");
     renderMainView();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -1593,6 +1594,105 @@
     }
   });
 
+  // ==========================================
+  // SILENT BACKGROUND ANALYTICS (ADMIN ONLY)
+  // ==========================================
+  const ANALYTICS_NS = "aplus_keepers_portsaid_med101";
+  const ANALYTICS_BASE = "https://abacus.jasoncameron.dev";
+
+  function trackEventSilent(key) {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("admin") === "1" || params.get("stats") === "admin") return;
+      fetch(`${ANALYTICS_BASE}/hit/${ANALYTICS_NS}/${key}`, { mode: "cors", cache: "no-store" }).catch(() => {});
+    } catch (e) {
+      // Ignore network errors silently
+    }
+  }
+
+  function initSilentAnalytics() {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const isAdminView = params.get("admin") === "1" || params.get("stats") === "admin";
+
+      if (isAdminView) {
+        showAdminStatsModal();
+        return;
+      }
+
+      // 1. Count Unique Visitor (once per device/browser)
+      if (!localStorage.getItem("ak_unique_counted_v1")) {
+        localStorage.setItem("ak_unique_counted_v1", "1");
+        trackEventSilent("unique_visitors");
+      }
+
+      // 2. Count Session Visit (once per browser session)
+      if (!sessionStorage.getItem("ak_session_counted_v1")) {
+        sessionStorage.setItem("ak_session_counted_v1", "1");
+        trackEventSilent("total_visits");
+      }
+    } catch (e) {
+      // Ignore storage errors silently
+    }
+  }
+
+  async function showAdminStatsModal() {
+    const fetchMetric = async (key) => {
+      try {
+        const res = await fetch(`${ANALYTICS_BASE}/get/${ANALYTICS_NS}/${key}`, { cache: "no-store" });
+        if (!res.ok) return 0;
+        const data = await res.json();
+        return typeof data.value === "number" ? data.value : 0;
+      } catch (e) {
+        return 0;
+      }
+    };
+
+    const [uniqueVisitors, totalVisits, quizzesStarted] = await Promise.all([
+      fetchMetric("unique_visitors"),
+      fetchMetric("total_visits"),
+      fetchMetric("quizzes_started")
+    ]);
+
+    const existing = document.getElementById("akAdminStatsOverlay");
+    if (existing) existing.remove();
+
+    const overlay = document.createElement("div");
+    overlay.id = "akAdminStatsOverlay";
+    overlay.style.cssText =
+      "position:fixed;inset:0;background:rgba(15,23,42,0.82);backdrop-filter:blur(6px);z-index:99999;display:flex;align-items:center;justify-content:center;padding:16px;font-family:'Cairo',sans-serif;direction:rtl;";
+
+    overlay.innerHTML = `
+      <div style="background:var(--bg-card,#ffffff);color:var(--text-main,#0f172a);max-width:480px;width:100%;border-radius:18px;padding:24px;box-shadow:0 20px 50px rgba(0,0,0,0.35);border:2px solid #dc2626;text-align:center;">
+        <div style="display:inline-block;background:#fee2e2;color:#b91c1c;font-weight:800;font-size:0.82rem;padding:4px 12px;border-radius:99px;margin-bottom:10px;">
+          🔒 لوحة إحصائيات الأدمن السرية (غير ظاهرة للطلاب)
+        </div>
+        <h3 style="font-size:1.35rem;font-weight:900;margin:0 0 18px;">📊 إحصائيات زوار منصة A+ KEEPERS</h3>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px;">
+          <div style="background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.35);padding:14px 8px;border-radius:12px;">
+            <div style="font-size:1.75rem;font-weight:900;color:#059669;">${uniqueVisitors}</div>
+            <div style="font-size:0.8rem;font-weight:700;margin-top:4px;">طالب فريد (Unique)</div>
+          </div>
+          <div style="background:rgba(14,165,233,0.12);border:1px solid rgba(14,165,233,0.35);padding:14px 8px;border-radius:12px;">
+            <div style="font-size:1.75rem;font-weight:900;color:#0284c7;">${totalVisits}</div>
+            <div style="font-size:0.8rem;font-weight:700;margin-top:4px;">إجمالي الزيارات</div>
+          </div>
+          <div style="background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.35);padding:14px 8px;border-radius:12px;">
+            <div style="font-size:1.75rem;font-weight:900;color:#d97706;">${quizzesStarted}</div>
+            <div style="font-size:0.8rem;font-weight:700;margin-top:4px;">اختبارات تم بدؤها</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:10px;justify-content:center;">
+          <button onclick="window.refreshAdminStats()" class="btn btn-primary btn-sm">🔄 تحديث الأرقام الآن</button>
+          <button onclick="document.getElementById('akAdminStatsOverlay').remove()" class="btn btn-secondary btn-sm">✖ إغلاق</button>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+  }
+
+  window.refreshAdminStats = showAdminStatsModal;
+
   // Boot
   window.addEventListener("DOMContentLoaded", () => {
     initTheme();
@@ -1606,5 +1706,6 @@
     }
 
     renderMainView();
+    initSilentAnalytics();
   });
 })();
