@@ -1391,20 +1391,376 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 960px) {
+  .top-promo-bar {
+    display: none;
+  }
+
+  .floating-support-btn {
+    display: none;
+  }
+
+  .site-header {
+    position: relative;
+    top: auto;
+  }
+
+  .header-inner {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .brand-logo-wrap {
+    order: 1;
+    gap: 8px;
+  }
+
+  .brand-logo-img {
+    height: 36px;
+  }
+
+  .brand-title {
+    font-size: 0.98rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.68rem;
+  }
+
+  .header-actions {
+    order: 2;
+    gap: 6px;
+  }
+
+  .icon-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 0.95rem;
+  }
+
+  .tg-header-btn {
+    padding: 6px 10px;
+    font-size: 0.76rem;
+    border-radius: 8px;
+  }
+
+  .main-nav {
+    order: 3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    border-top: 1px solid var(--border-color);
+    padding-top: 8px;
+  }
+
+  .nav-btn {
+    width: 100%;
+    justify-content: center;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-color);
+    padding: 7px 8px;
+    font-size: 0.8rem;
+    border-radius: 9px;
+    white-space: nowrap;
+  }
+
+  .nav-btn.active {
+    background: var(--brand-red);
+    color: #ffffff;
+    border-color: var(--brand-red);
+  }
+
+  .nav-btn.active .nav-badge {
+    background: #ffffff;
+    color: var(--brand-red);
+  }
+
+  .nav-badge {
+    font-size: 0.68rem;
+    padding: 1px 6px;
+  }
+
+  .main-container {
+    padding: 12px 12px 40px;
+  }
+
+  .hero-banner {
+    padding: 16px 14px;
+    margin-bottom: 16px;
+    border-radius: var(--radius-md);
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
+    gap: 14px;
   }
+
+  .hero-badge-row {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  .hero-pill {
+    font-size: 0.72rem;
+    padding: 3px 9px;
+  }
+
   .hero-title {
-    font-size: 1.55rem;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    margin-bottom: 8px;
   }
+
+  .hero-desc {
+    font-size: 0.84rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+  }
+
+  .student-welcome-bar {
+    padding: 8px 10px;
+    margin-bottom: 12px;
+    gap: 6px;
+    font-size: 0.82rem;
+  }
+
+  .student-welcome-bar input {
+    width: 100%;
+    min-width: 100%;
+    font-size: 0.84rem;
+    padding: 6px 10px;
+  }
+
+  .hero-cta-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 9px 8px;
+    text-align: center;
+  }
+
+  .hero-cta-group .hero-btn-main {
+    grid-column: 1 / -1;
+    font-size: 0.88rem;
+    padding: 10px 12px;
+  }
+
+  /* Compact horizontal stats bar instead of giant white logo card on mobile */
+  .hero-brand-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: none;
+  }
+
+  .hero-brand-card img {
+    display: none;
+  }
+
+  .hero-brand-card > div:first-of-type {
+    display: none;
+  }
+
+  .hero-stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-top: 0;
+  }
+
+  .hero-stat-box {
+    background: rgba(15, 23, 42, 0.55);
+    border-color: rgba(255, 255, 255, 0.12);
+    padding: 8px 4px;
+    border-radius: 8px;
+  }
+
+  .hero-stat-num {
+    font-size: 1.05rem;
+    color: #f87171;
+  }
+
+  .hero-stat-label {
+    font-size: 0.66rem;
+    color: #cbd5e1;
+    line-height: 1.2;
+    margin-top: 2px;
+  }
+
+  /* 2x2 Quick Tools Grid on Mobile */
+  .quick-tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .quick-tool-card {
+    padding: 10px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 12px;
+  }
+
+  .quick-tool-info {
+    gap: 8px;
+    width: 100%;
+  }
+
+  .quick-tool-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.15rem;
+    border-radius: 9px;
+  }
+
+  .quick-tool-title {
+    font-size: 0.84rem;
+    line-height: 1.25;
+  }
+
+  .quick-tool-sub {
+    display: none;
+  }
+
+  .quick-tool-card .btn {
+    width: 100%;
+    padding: 5px 8px;
+    font-size: 0.76rem;
+  }
+
+  /* Section Headers & Filters */
+  .section-header {
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+  }
+
+  .filter-pills {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    gap: 6px;
+  }
+
+  .filter-pills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-pill {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 0.78rem;
+    padding: 6px 12px;
+  }
+
+  /* Cards Grid */
   .cards-grid {
     grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
   }
+
+  .subject-card,
+  .exam-card {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .subject-icon-box {
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+    border-radius: 11px;
+  }
+
+  .card-title {
+    font-size: 1.05rem;
+  }
+
+  .card-subtitle {
+    font-size: 0.78rem;
+    margin-bottom: 10px;
+  }
+
+  .card-actions .btn {
+    font-size: 0.82rem;
+    padding: 8px 10px;
+  }
+
+  /* Quiz Player Mobile */
+  .quiz-top-bar {
+    padding: 12px 14px;
+    gap: 10px;
+  }
+
+  .quiz-controls-row {
+    width: 100%;
+    justify-content: space-between;
+    gap: 6px;
+  }
+
+  .mode-switch-btn {
+    font-size: 0.76rem;
+    padding: 5px 8px;
+  }
+
+  .timer-pill {
+    font-size: 0.8rem;
+    padding: 5px 9px;
+  }
+
   .question-card {
-    padding: 18px;
+    padding: 16px 14px;
+    border-radius: 14px;
   }
+
   .question-stem {
-    font-size: 1.08rem;
+    font-size: 1.02rem;
+    margin-bottom: 16px;
+  }
+
+  .option-btn {
+    padding: 11px 12px;
+    font-size: 0.92rem;
+    gap: 10px;
+  }
+
+  .option-letter {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8rem;
+  }
+
+  .quiz-nav-footer {
+    gap: 8px;
+  }
+
+  .quiz-nav-footer .btn {
+    font-size: 0.82rem;
+    padding: 8px 12px;
+  }
+
+  .result-share-card {
+    padding: 18px 14px;
+    grid-template-columns: 1fr !important;
+  }
+
+  .site-footer {
+    padding: 24px 14px;
   }
 }

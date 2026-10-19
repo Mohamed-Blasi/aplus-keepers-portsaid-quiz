@@ -130,10 +130,9 @@
     // Update top badges
     updateHeaderCounters();
 
-    // Show hero on main tabs, hide inside active quiz/result
+    // Show hero only on the main home tab ('subjects') so other tabs open immediately at the top
     if (heroEl) {
-      heroEl.style.display =
-        state.activeTab === "quiz" || state.activeTab === "result" ? "none" : "block";
+      heroEl.style.display = state.activeTab === "subjects" ? "block" : "none";
     }
 
     if (state.activeTab === "subjects") {
