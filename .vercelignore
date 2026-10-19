@@ -1,0 +1,7 @@
+*.pdf
+*.PDF
+*.txt
+photo_*.jpg
+.git
+.gitignore
+README.md

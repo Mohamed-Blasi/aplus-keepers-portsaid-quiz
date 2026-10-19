@@ -1,0 +1,11 @@
+# Raw source documents and scans (extracted into data/*.js)
+*.pdf
+*.PDF
+*.txt
+photo_*.jpg
+
+# Local / OS / Deployment metadata
+.vercel
+.DS_Store
+Thumbs.db
+node_modules/

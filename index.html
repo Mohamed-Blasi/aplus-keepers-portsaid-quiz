@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A+ KEEPERS TEAM | منصة بنوك أسئلة وامتحانات طب بورسعيد - البلوك الأول (MED101)</title>
+  <meta name="description" content="منصة A+ KEEPERS TEAM الشاملة لطلبة كلية الطب جامعة بورسعيد (حكومي وأهلية - دفعة 2027). حل جميع امتحانات السنوات السابقة وبنوك الأسئلة والأسئلة المقالية للبلوك الأول مع التصحيح الفوري والشرح العلمي." />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+
+  <!-- Google Fonts: Cairo (Arabic) & Plus Jakarta Sans (English Medical) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Promotional Bar -->
+  <div class="top-promo-bar">
+    <span>🩺 <strong>A+ KEEPERS TEAM</strong> — لو عاوز تفهم أو تتأكد من إجابة أي سؤال اسأل الدكاترة على جروب التليجرام:</span>
+    <a href="https://t.me/+2OKH0D4gDD03NGE0" target="_blank" rel="noopener">💬 اسأل الدكاترة على جروب التليجرام</a>
+    <a href="https://t.me/AplusKeepersClass1_2027" target="_blank" rel="noopener">📢 قناة الدفعة</a>
+    <a href="https://t.me/A_Plus_Keepers_Support" target="_blank" rel="noopener">✉️ الدعم: @A_Plus_Keepers_Support</a>
+  </div>
+
+  <!-- Sticky Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="brand-logo-wrap" onclick="switchTab('subjects'); return false;">
+        <img src="assets/logo.jpg" alt="A+ KEEPERS TEAM Logo" class="brand-logo-img" />
+        <div class="brand-title-group">
+          <div class="brand-title">
+            <span class="a-plus">A+</span>
+            <span>KEEPERS TEAM</span>
+          </div>
+          <span class="brand-subtitle">طب بورسعيد • البلوك الأول (MED101)</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <button class="nav-btn active" data-tab="subjects" onclick="switchTab('subjects')">
+          📚 بنوك المواد <span class="nav-badge">9</span>
+        </button>
+        <button class="nav-btn" data-tab="lectures" onclick="switchTab('lectures')">
+          🎧 فهرس الشرح <span class="nav-badge">10</span>
+        </button>
+        <button class="nav-btn" data-tab="exams" onclick="switchTab('exams')">
+          🎓 سنوات سابقة وتجميعات <span class="nav-badge">16</span>
+        </button>
+        <button class="nav-btn" data-tab="essay" onclick="switchTab('essay')">
+          ✍️ أسئلة المقالي MEQ <span class="nav-badge">28</span>
+        </button>
+        <button class="nav-btn" data-tab="custom" onclick="switchTab('custom')">
+          ⚡ اعمل امتحانك
+        </button>
+        <button class="nav-btn" data-tab="search" onclick="switchTab('search')">
+          🔍 بحث
+        </button>
+        <button class="nav-btn" data-tab="course" onclick="switchTab('course')">
+          🩺 تواصل معنا
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="icon-btn" title="تبديل الوضع الليلي/النهاري">🌙</button>
+        <a href="https://t.me/+2OKH0D4gDD03NGE0" target="_blank" rel="noopener" class="tg-header-btn">
+          <span>💬</span>
+          <span>اسأل الدكاترة</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- Hero Banner Section -->
+    <section id="heroSection" class="hero-banner">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge-row">
+            <span class="hero-pill">🔥 دفعة 2027 — سنة أولى طب بورسعيد (حكومي وأهلية)</span>
+            <span class="hero-pill secondary">Introduction to Medicine • MED101</span>
+          </div>
+
+          <h1 class="hero-title">
+            كل أسئلة البلوك الأول والسنين السابقة في مكان واحد مع <span>A+ KEEPERS TEAM</span>
+          </h1>
+
+          <p class="hero-desc">
+            حل أكتر من <strong>520+ سؤال</strong> متقسمين حسب المادة وحسب امتحانات السنين السابقة وأسئلة المقالي (MEQ)، مع فهرس شرح المحاضرات وتصحيح طبي دقيق وتفسير علمي لكل سؤال!
+          </p>
+
+          <div class="student-welcome-bar">
+            <span>👨‍⚕️ اسمك لكارت النتيجة:</span>
+            <input
+              id="studentNameInput"
+              type="text"
+              placeholder="اكتب اسمك هنا يا دكتور (مثال: أحمد محمد)..."
+            />
+          </div>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary" onclick="startSourceQuiz('exam_oct_2024', 'study', false)">
+              🚀 ابدأ بأحدث امتحان (أكتوبر 2024)
+            </button>
+            <button class="btn btn-outline-light" style="background:rgba(255,255,255,0.16); border-color:#fde047; color:#fde047;" onclick="switchTab('lectures')">
+              🎧 فهرس الشرح (لو محتاج تذاكر أي محاضرة)
+            </button>
+            <a href="https://t.me/+2OKH0D4gDD03NGE0" target="_blank" rel="noopener" class="btn btn-telegram">
+              💬 اسأل الدكاترة على جروب التليجرام
+            </a>
+            <a href="https://t.me/AplusKeepersClass1_2027" target="_blank" rel="noopener" class="btn btn-outline-light">
+              📢 قناة تليجرام الدفعة
+            </a>
+          </div>
+
+          <div style="margin-top:14px; background:rgba(0,136,204,0.18); border:1px solid rgba(56,189,248,0.4); padding:10px 14px; border-radius:10px; font-size:0.9rem; font-weight:700; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+            <span>💡 لو عاوز تفهم أو تتأكد من إجابة أي سؤال، اسأل الدكاترة مباشرة على جروب التليجرام!</span>
+            <div style="display:flex; gap:12px; flex-wrap:wrap;">
+              <a href="#" onclick="switchTab('lectures'); return false;" style="color:#fde047; text-decoration:underline; font-weight:800;">🎧 فهرس الشرح للمحاضرات</a>
+              <a href="https://t.me/+2OKH0D4gDD03NGE0" target="_blank" rel="noopener" style="color:#38bdf8; text-decoration:underline; font-weight:800;">💬 جروب الأسئلة والمناقشة ⬅</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-brand-card">
+          <img src="assets/logo.jpg" alt="A+ KEEPERS TEAM" />
+          <div style="font-size:0.86rem; font-weight:800; color:#475569; margin-bottom:8px;">
+            إحصائيات المنصة وتقدمك الشخصي
+          </div>
+          <div class="hero-stats-grid">
+            <div class="hero-stat-box">
+              <div id="statTotalQuestions" class="hero-stat-num">520+</div>
+              <div class="hero-stat-label">إجمالي الأسئلة</div>
+            </div>
+            <div class="hero-stat-box">
+              <div class="hero-stat-num">7</div>
+              <div class="hero-stat-label">امتحانات سنوات سابقة</div>
+            </div>
+            <div class="hero-stat-box">
+              <div class="hero-stat-num">9</div>
+              <div class="hero-stat-label">مواد البلوك الأول</div>
+            </div>
+            <div class="hero-stat-box">
+              <div id="statSolvedCount" class="hero-stat-num" style="color:#059669;">0</div>
+              <div class="hero-stat-label">أسئلة قمت بحلها</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dynamic App View Container -->
+    <div id="appMainContent"></div>
+
+  </main>
+
+  <!-- Floating Support CTA Button -->
+  <a
+    href="https://t.me/+2OKH0D4gDD03NGE0"
+    target="_blank"
+    rel="noopener"
+    class="floating-support-btn"
+    title="لو عاوز تفهم أو تتأكد من إجابة أي سؤال اسأل الدكاترة على جروب التليجرام"
+  >
+    <span>🩺</span>
+    <span>اسأل الدكاترة على جروب التليجرام</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div style="display:flex; align-items:center; gap:14px;">
+        <img src="assets/logo.jpg" alt="A+ KEEPERS TEAM" class="brand-logo-img" />
+        <div>
+          <div style="font-weight:900; font-size:1.05rem;">A+ KEEPERS TEAM — Port Said Faculty of Medicine</div>
+          <div style="font-size:0.84rem; color:var(--text-muted);">
+            منصة التدريب التفاعلية للبلوك الأول (Introduction to Medicine - MED101) • دفعة 2027 (حكومي وأهلية)
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:10px; flex-wrap:wrap;">
+        <a href="https://t.me/+2OKH0D4gDD03NGE0" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+          💬 اسأل الدكاترة على جروب التليجرام
+        </a>
+        <a href="https://t.me/AplusKeepersClass1_2027" target="_blank" rel="noopener" class="btn btn-telegram btn-sm">
+          📢 قناة الدفعة
+        </a>
+        <a href="https://t.me/A_Plus_Keepers_Support" target="_blank" rel="noopener" class="btn btn-secondary btn-sm">
+          ✉️ الدعم: @A_Plus_Keepers_Support
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Data & Application Scripts -->
+  <script src="data/config.js"></script>
+  <script src="data/questions-subjects-1.js"></script>
+  <script src="data/questions-subjects-2.js"></script>
+  <script src="data/questions-exams-1.js"></script>
+  <script src="data/questions-exams-2.js"></script>
+  <script src="data/questions-essay.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
