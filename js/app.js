@@ -1021,102 +1021,13 @@
             .join("")}
         </div>
 
-        <!-- Admin / Add Question Box -->
-        <div class="question-card" style="margin-top:24px;">
-          <h3 class="section-title" style="margin-bottom:12px;">➕ لوحة إضافة أسئلة جديدة للمنصة (Question Manager)</h3>
-          <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:16px;">
-            تقدر تضيف أي أسئلة جديدة هنا وهتتحفظ فوراً وتظهر في قسم المادة المختارة، وتقدر كمان تصدّر الأسئلة المضافة كملف JSON.
-          </p>
-
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
-            <div class="form-group">
-              <label>المادة (Subject):</label>
-              <select id="adminSubj">
-                ${window.APP_CONFIG.subjects
-                  .map((s) => `<option value="${s.id}">${s.nameAr}</option>`)
-                  .join("")}
-              </select>
-            </div>
-            <div class="form-group">
-              <label>رقم الاختيار الصحيح (1 - 4):</label>
-              <select id="adminCorrectIdx">
-                <option value="0">الاختيار الأول (A)</option>
-                <option value="1">الاختيار الثاني (B)</option>
-                <option value="2">الاختيار الثالث (C)</option>
-                <option value="3">الاختيار الرابع (D)</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label>نص السؤال (Question Stem):</label>
-            <input id="adminQText" type="text" class="ltr-text" placeholder="Which of the following..." />
-          </div>
-
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
-            <div class="form-group">
-              <label>Option A:</label>
-              <input id="adminOpt0" type="text" class="ltr-text" placeholder="Option A" />
-            </div>
-            <div class="form-group">
-              <label>Option B:</label>
-              <input id="adminOpt1" type="text" class="ltr-text" placeholder="Option B" />
-            </div>
-            <div class="form-group">
-              <label>Option C:</label>
-              <input id="adminOpt2" type="text" class="ltr-text" placeholder="Option C" />
-            </div>
-            <div class="form-group">
-              <label>Option D:</label>
-              <input id="adminOpt3" type="text" class="ltr-text" placeholder="Option D" />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label>التفسير العلمي (Explanation):</label>
-            <input id="adminExp" type="text" placeholder="شرح الإجابة الصحيحة..." />
-          </div>
-
-          <div style="display:flex; gap:10px; flex-wrap:wrap;">
-            <button class="btn btn-primary btn-sm" onclick="addAdminQuestion()">💾 حفظ وإضافة السؤال</button>
-            <button class="btn btn-secondary btn-sm" onclick="resetStudentProgress()">🗑️ تصفير سجل التقدم والأخطاء</button>
-          </div>
+        <div style="margin-top:28px; text-align:center; padding:18px; background:var(--card-bg); border-radius:12px; border:1px solid var(--border-color);">
+          <span style="font-size:0.9rem; color:var(--text-muted); margin-left:12px;">لو عاوز تبدأ من الصفر وتمسح سجل إجاباتك وبنك الأخطاء:</span>
+          <button class="btn btn-secondary btn-sm" onclick="resetStudentProgress()">🗑️ إعادة تعيين سجلي والبدء من جديد</button>
         </div>
       </div>
     `;
   }
-
-  window.addAdminQuestion = function () {
-    const subj = document.getElementById("adminSubj").value;
-    const ans = parseInt(document.getElementById("adminCorrectIdx").value, 10) || 0;
-    const qText = document.getElementById("adminQText").value.trim();
-    const o0 = document.getElementById("adminOpt0").value.trim();
-    const o1 = document.getElementById("adminOpt1").value.trim();
-    const o2 = document.getElementById("adminOpt2").value.trim();
-    const o3 = document.getElementById("adminOpt3").value.trim();
-    const exp = document.getElementById("adminExp").value.trim();
-
-    if (!qText || !o0 || !o1) {
-      alert("من فضلك اكتب نص السؤال واختيارين على الأقل!");
-      return;
-    }
-
-    const newQ = {
-      id: "custom_" + Date.now(),
-      source: "bank_" + subj,
-      subject: subj,
-      type: "mcq",
-      q: qText,
-      options: [o0, o1, o2, o3].filter(Boolean),
-      answer: ans,
-      explanation: exp || "تمت إضافته بواسطة إدارة A+ KEEPERS TEAM."
-    };
-
-    state.customQuestions.push(newQ);
-    saveJSON(STORAGE_KEYS.CUSTOM_QS, state.customQuestions);
-    alert("تمت إضافة السؤال بنجاح! عدد الأسئلة المضافة: " + state.customQuestions.length);
-    renderMainView();
-  };
 
   window.resetStudentProgress = function () {
     if (!confirm("هل أنت متأكد من مسح سجل الحلول وبنك الأخطاء للبدء من جديد؟")) return;
