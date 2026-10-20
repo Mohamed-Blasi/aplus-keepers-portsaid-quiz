@@ -1420,5 +1420,1384 @@ window.QUESTIONS_SUBJECTS_1 = [
     options: ["Glycine", "Alanine", "Tyrosine", "Lysine"],
     answer: 2,
     explanation: "الأحماض الأمينية العطرية (Aromatic amino acids) هي: Phenylalanine, Tyrosine, Tryptophan."
+  },
+  {
+    id: "bio_aa_20",
+    source: "bank_biochem_amino",
+    subject: "biochemistry",
+    type: "tf",
+    q: "True or False: Essential amino acids are formed in the body.",
+    options: ["True", "False"],
+    answer: 1,
+    explanation: "خطأ (False): الأحماض الأمينية الأساسية (Essential amino acids) لا يستطيع الجسم تصنيعها ولابد من أخذها في الغذاء."
+  },
+
+  // ==========================================
+  // ADDITIONAL BIOCHEMISTRY CARBOHYDRATES & LIPIDS (Q2 Folder)
+  // ==========================================
+  {
+    id: "bio_carb_25",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following statements best describes Glucose?",
+    options: [
+      "Usually exists in furanose form",
+      "It is a Ketose",
+      "Carbon 2 is the anomeric carbon",
+      "It forms part of disaccharide Sucrose",
+      "It is oxidized to form sorbitol"
+    ],
+    answer: 3,
+    explanation: "الجلوكوز هو Aldohexose، يوجد غالباً في صورة حلقة Pyranose، والكربونة الأنوميرية فيه هي C1، ويُختزل (Reduced) ليعطي Sorbitol، ويدخل مع الفركتوز في تكوين سكر السكروز (Sucrose)."
+  },
+  {
+    id: "bio_carb_26",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following is correct about the sugar residues of Amylose?",
+    options: [
+      "Binds by β 1,4 linkage",
+      "Binds by α 1,4 linkage",
+      "Formed of galactose units only",
+      "Formed of Fructose units only",
+      "Formed of both galactose and Fructose units"
+    ],
+    answer: 1,
+    explanation: "الأميلوز (Amylose) هو الجزء الخطي غير المتفرع من النشا، ويتكون من وحدات α-D-glucose مرتبطة بروابط (α-1,4 glycosidic bonds)."
+  },
+  {
+    id: "bio_carb_27",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following is correct about polysaccharides?",
+    options: [
+      "Cellulose is not hydrolyzed by digestive enzymes",
+      "Amylose is a branched part of starch",
+      "Glycogen is linear unbranched polysaccharides",
+      "Heparin is homopolysaccharides formed of glucose",
+      "Amylopectin is a linear unbranched polymer of D-glucose"
+    ],
+    answer: 0,
+    explanation: "السيلولوز لا يُهضم في قناة الإنسان الهضمية لعدم وجود إنزيم Cellulase القادر على كسر روابط (β-1,4)."
+  },
+  {
+    id: "bio_carb_28",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following is a non-reducing sugar?",
+    options: ["Maltose", "Lactose", "Glucose", "Sucrose", "Ribose"],
+    answer: 3,
+    explanation: "السكروز (Sucrose) سكر غير مختزل (Non-reducing sugar) لارتباط C1 في الجلوكوز مع C2 في الفركتوز فلا توجد مجموعة أنوميرية حرة."
+  },
+  {
+    id: "bio_carb_29",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following best describes deoxyribose?",
+    options: [
+      "Disaccharide",
+      "Aldopentose",
+      "Ketopentose",
+      "Non reducing sugar",
+      "Ketotriose"
+    ],
+    answer: 1,
+    explanation: "الديوكسي ريبوز (2-Deoxyribose) هو سكر خماسي ألدهيدي (Aldopentose) منزوع الأكسجين عند ذرة الكربون رقم 2 ويدخل في تركيب الـ DNA."
+  },
+  {
+    id: "bio_carb_30",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Which of the following is true about sorbitol?",
+    options: [
+      "Sugar alcohol formed by reduction of Glucose",
+      "Sugar alcohol formed by Oxidation of Glucose",
+      "One of the mucopolysaccharides",
+      "Polysaccharides formed of repeated glucose units",
+      "An amino sugar arises from Galactose"
+    ],
+    answer: 0,
+    explanation: "السوربيتول (Sorbitol / Glucitol) هو كحول سكري (Sugar alcohol) ينتج من اختزال (Reduction) مجموعة الألدهيد في الجلوكوز."
+  },
+  {
+    id: "bio_carb_31",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "tf",
+    q: "True or False: Cellulose is a polysaccharide which can be digested by human enzymes.",
+    options: ["True", "False"],
+    answer: 1,
+    explanation: "خطأ (False): السيلولوز لا يُهضم بواسطة إنزيمات الجهاز الهضمي للإنسان لاحتوائه على روابط β-1,4 glycosidic bonds."
+  },
+  {
+    id: "bio_carb_32",
+    source: "bank_biochem_carbs",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Monosaccharides are linked in polysaccharides by:",
+    options: [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Ester bond",
+      "Hydrogen bonds",
+      "Hydrophobic interaction"
+    ],
+    answer: 0,
+    explanation: "ترتبط السكريات الأحادية معاً في السكريات الثنائية والعديدة بواسطة روابط جليكوسيدية (Glycosidic bonds)."
+  },
+  {
+    id: "bio_lip_21",
+    source: "bank_biochem_lipids",
+    subject: "biochemistry",
+    type: "mcq",
+    q: "Butyric acid (4:0) is:",
+    options: [
+      "Saturated Short Chain fatty acid",
+      "Unsaturated Short Chain fatty acid",
+      "Saturated Long Chain fatty acid",
+      "Unsaturated Long Chain fatty acid"
+    ],
+    answer: 0,
+    explanation: "حمض البيوتيريك (Butyric acid 4:0) يتكون من 4 ذرات كربون بدون أي روابط مزدوجة، لذا فهو حمض دهني مشبع قصير السلسلة (Saturated short-chain fatty acid)."
+  },
+
+  // ==========================================
+  // SYNOPSIS IN SYSTEMIC ANATOMY 2024 & MINIBANK (95 Unique MCQs)
+  // ==========================================
+  {
+    id: "anat_syn_1",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the primary purpose of the spinal cord?",
+    options: [
+      "To facilitate the communication between the two hemispheres",
+      "To transmit electrical signals between the brain and the rest of the body",
+      "To transmit electrical signals around the brain",
+      "To produce hormones and neurotransmitters",
+      "It acts as fixator of central nervous system"
+    ],
+    answer: 1,
+    explanation: "الوظيفة الأساسية للحبل الشوكي (Spinal cord) هي نقل الإشارات العصبية والكهربائية بين المخ وباقي أجزاء الجسم."
+  },
+  {
+    id: "anat_syn_2",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of dorsal?",
+    options: [
+      "Directed upwards",
+      "Directed downwards",
+      "Directed posterior",
+      "Directed anterior",
+      "Directed laterally"
+    ],
+    answer: 2,
+    explanation: "مصطلح Dorsal يرادف Posterior أي باتجاه الخلف (الظهر)، بينما Ventral يرادف Anterior (الأمام)."
+  },
+  {
+    id: "anat_syn_3",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is part of the adaptive immune system?",
+    options: ["Fascia", "Muscles", "Bone marrow", "Lymph", "Blood"],
+    answer: 3,
+    explanation: "الليمف والجهاز الليمفاوي (Lymph) يحتوي على الخلايا الليمفاوية المسؤولة عن المناعة المكتسبة (Adaptive immune system)."
+  },
+  {
+    id: "anat_syn_4",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following occurs when a part of the body is extended beyond the anatomical position so that the joint angle is greater than 180 degrees?",
+    options: ["Abduction", "Hyperabduction", "Hyperextension", "Flexion", "Adduction"],
+    answer: 2,
+    explanation: "فرط البسط (Hyperextension) هو بسط المفصل لما بعد الوضع التشريحي بحيث تتجاوز زاوية المفصل 180 درجة."
+  },
+  {
+    id: "anat_syn_5",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The movement of the sole of the foot outward or laterally is called:",
+    options: ["Inversion", "Eversion", "Retraction", "Elevation", "Rotation"],
+    answer: 1,
+    explanation: "توجيه باطن القدم للخارج (Outward / Laterally) يسمى Eversion، بينما توجيهه للداخل (Medially) يسمى Inversion."
+  },
+  {
+    id: "anat_syn_6",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following ligaments lie within the knee joint (intra-capsular)?",
+    options: [
+      "Oblique popliteal ligament and arcuate popliteal ligament",
+      "Anterior cruciate ligament and posterior cruciate ligament",
+      "Lateral and medial collateral ligaments",
+      "Anterior cruciate ligament and medial collateral ligament",
+      "Oblique popliteal ligament and medial collateral ligament"
+    ],
+    answer: 1,
+    explanation: "الرباط الصليبي الأمامي والخلفي (Anterior & Posterior cruciate ligaments) يقعان داخل محفظة مفصل الركبة (Intra-capsular)."
+  },
+  {
+    id: "anat_syn_7",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is uniaxial synovial joint?",
+    options: ["Shoulder", "Wrist", "Carpometacarpal", "Hip", "Knee"],
+    answer: 4,
+    explanation: "مفصل الركبة (Knee joint) مفصل رزي محور (Modified Hinge = Uniaxial). تنبيه: في مفتاح ملف Synopsis تم تظليل C (Carpometacarpal) بالخطأ، بينما الـ Carpometacarpal هو Biaxial (Saddle).",
+    note: "تنبيه بصمجة الملف: متجاوب في ملف Synopsis رقم C (Carpometacarpal) بالغلط، ولكن علمياً الركبة (Knee) هي Uniaxial (Hinge)."
+  },
+  {
+    id: "anat_syn_8",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is biaxial synovial joint?",
+    options: ["Hinge", "Condyloid", "Pivot", "Plane", "Ball and socket"],
+    answer: 1,
+    explanation: "المفاصل ثنائية المحور (Biaxial synovial joints) تشمل الـ Condyloid (Ellipsoid) والـ Saddle joints."
+  },
+  {
+    id: "anat_syn_9",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is biaxial synovial joints?",
+    options: ["Shoulder", "Ankle", "Carpometacarpal", "Hip", "Sternoclavicular"],
+    answer: 2,
+    explanation: "مفصل قاعدة الإبهام (1st Carpometacarpal joint) هو مفصل سرجي ثنائي المحور (Saddle = Biaxial synovial joint)."
+  },
+  {
+    id: "anat_syn_10",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is polyaxial synovial joints?",
+    options: ["Hinge", "Condyloid", "Ball and socket", "Plane", "Pivot"],
+    answer: 2,
+    explanation: "مفصل الكرة والحق (Ball and socket joint) هو مفصل متعدد المحاور (Polyaxial / Multiaxial) يتحرك في 3 محاور."
+  },
+  {
+    id: "anat_syn_11",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is an example of polyaxial synovial joints?",
+    options: ["Hip", "Ankle", "Carpometacarpal", "Knee", "Sternoclavicular"],
+    answer: 0,
+    explanation: "مفصل الفخذ (Hip joint) ومفصل الكتف (Shoulder joint) من أمثلة المفاصل متعددة المحاور (Polyaxial Ball & Socket)."
+  },
+  {
+    id: "anat_syn_12",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints has an articular disc as one of its intra-capsular structures?",
+    options: ["Hip", "Shoulder", "Sternoclavicular", "Wrist", "Carpometacarpal"],
+    answer: 2,
+    explanation: "المفصل القصي الترقوي (Sternoclavicular joint) ومفصل الفك (TMJ) يحتويان على قرص مفصلي ليفي غضروفي (Articular disc) داخل المحفظة."
+  },
+  {
+    id: "anat_syn_13",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of inversion?",
+    options: [
+      "Palm of hand looks forwards",
+      "Palm of hand looks dorsally",
+      "Rotation towards the lateral side of the body",
+      "Crossing of radius around ulna",
+      "The sole of the foot turned inwards"
+    ],
+    answer: 4,
+    explanation: "الـ Inversion هو توجيه باطن القدم إلى الداخل (The sole of the foot turned inwards / medially)."
+  },
+  {
+    id: "anat_syn_14",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is one of the functions of the bursa?",
+    options: [
+      "Reduce friction by separating the adjacent structures",
+      "Minimize size of the joint",
+      "Separate articular bones",
+      "Always connected with synovial membrane",
+      "Increase size of the joint"
+    ],
+    answer: 0,
+    explanation: "الجراب الزلالي (Bursa) يقلل الاحتكاك (Reduces friction) عن طريق فصل الأوتار والعضلات عن العظام المجاورة."
+  },
+  {
+    id: "anat_syn_15",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is a sesamoid bone?",
+    options: ["Scapula", "Patella", "Sternum", "Tibia", "Fibula"],
+    answer: 1,
+    explanation: "عظمة الرضفة (Patella) هي أكبر عظمة سمسمانية (Sesamoid bone) في جسم الإنسان وتقع داخل وتر عضلة الـ Quadriceps femoris."
+  },
+  {
+    id: "anat_syn_16",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints can move in only one direction (one axis)?",
+    options: ["Hinge joint", "Ball and Socket joint", "Gliding joint", "Condyloid joint", "Saddle"],
+    answer: 0,
+    explanation: "المفصل الرزي (Hinge joint) يتحرك في محور واحد فقط (Uniaxial: Flexion & Extension) مثل مفصل الكوع."
+  },
+  {
+    id: "anat_syn_17",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the difference between cartilage and bone?",
+    options: [
+      "Bone is rubbery, and cartilage is firm.",
+      "Cartilage is rubbery, and bone is firm.",
+      "Bone is a more primitive tissue than cartilage",
+      "Bone is inside the body, and cartilage is outside.",
+      "Cartilage is sensitive to pain, and bone is not"
+    ],
+    answer: 1,
+    explanation: "الغضروف مرن ومطاطي (Cartilage is rubbery/flexible)، بينما العظم صلب وقوي (Bone is firm/hard) لترسب أملاح الكالسيوم."
+  },
+  {
+    id: "anat_syn_18",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The hollow space in the middle of bones (medullary cavity) is filled with which of the following?",
+    options: ["Air", "Blood", "Osteocytes", "Bone marrow", "Chondrocytes"],
+    answer: 3,
+    explanation: "التجويف النخاعي (Medullary cavity) في ساق العظام الطويلة مملوء بنخاع العظم (Bone marrow)."
+  },
+  {
+    id: "anat_syn_19",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the difference between compact bone and spongy bone?",
+    options: [
+      "They have different bone marrow.",
+      "They are made of different materials.",
+      "They have different sizes of bone cells.",
+      "They have different arrangement of bone cells.",
+      "They have different vasculature"
+    ],
+    answer: 3,
+    explanation: "الفرق الأساسي بين العظم الكثيف (Compact) والعظم الإسفنجي (Spongy) هو طريقة ترتيب الخلايا والصفائح العظمية (Osteons/Haversian systems vs Trabeculae)."
+  },
+  {
+    id: "anat_syn_20",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the function of a tendon?",
+    options: [
+      "Connects bones to bones",
+      "Connects muscles to bones",
+      "Connects muscles to ligaments",
+      "Connects ligaments to ligaments",
+      "Connects the cells in compact bone closer together"
+    ],
+    answer: 1,
+    explanation: "الوتر (Tendon) يربط العضلة بالعظم (Connects muscle to bone)، بينما الرباط (Ligament) يربط العظم بالعظم."
+  },
+  {
+    id: "anat_syn_21",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following lines the medullary cavity?",
+    options: ["Diaphysis", "Endosteum", "Osteoclasts", "Chondroblasts", "Epiphysis"],
+    answer: 1,
+    explanation: "يُبطن التجويف النخاعي من الداخل غشاء رقيق يسمى السمحاق الداخلي (Endosteum)، بينما يحيط بالعظم من الخارج الـ Periosteum."
+  },
+  {
+    id: "anat_syn_22",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of pronation?",
+    options: [
+      "Palm of hand looks forwards",
+      "Palm of hand looks dorsally",
+      "Rotation towards the lateral side of the body",
+      "Crossing of radius around ulna making palm look dorsally (backwards)",
+      "The sole of the foot turned inwards"
+    ],
+    answer: 3,
+    explanation: "الـ Pronation هو دوران عظمة الكعبرة (Radius) أمام عظمة الزند (Ulna) مما يجعل كف اليد يتجه للخلف (Dorsally / Posteriorly)."
+  },
+  {
+    id: "anat_syn_23",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following covers the epiphysis?",
+    options: ["Blood vessels", "Nerve cells", "Articular cartilage", "Synovial membrane", "Lymph vessels"],
+    answer: 2,
+    explanation: "يُغطى سطح الـ Epiphysis عند المفاصل الزلالية بالغضروف المفصلي الزجاجي (Articular hyaline cartilage)."
+  },
+  {
+    id: "anat_syn_24",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The epiphyseal plate (growth plate) stops growing most probably at which of the following ages?",
+    options: ["8-10", "10-12", "18-21", "30-50", "40-45"],
+    answer: 2,
+    explanation: "يتعظم غضروف النمو (Epiphyseal plate) ويتوقف طول العظم عن الزيادة غالباً بين سن 18 إلى 21 سنة."
+  },
+  {
+    id: "anat_syn_25",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The diploë (spongy bone of the skull) is lined on either side by which of the following?",
+    options: ["Cartilage", "Muscles", "Tendons", "Compact bone", "Synovial membrane"],
+    answer: 3,
+    explanation: "طبقة العظم الإسفنجي في عظام الجمجمة المسطحة (Diploë) تكون محصورة بين طبقتين (Inner & Outer tables) من العظم الكثيف (Compact bone)."
+  },
+  {
+    id: "anat_syn_26",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of articulations (joints)?",
+    options: [
+      "It's an area of a bone that projects above the surface of the bone.",
+      "It's a small shallow depression",
+      "It's where two bone surfaces come together",
+      "It's an elevated smooth surface",
+      "It's a prominent rounded surface"
+    ],
+    answer: 2,
+    explanation: "التمفصل أو المفصل (Articulation / Joint) هو موضع التقاء سطحي عظمتين أو أكثر (Where two bone surfaces come together)."
+  },
+  {
+    id: "anat_syn_27",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of condyle?",
+    options: [
+      "It's an area of a bone that projects above the surface of the bone.",
+      "It's a small shallow depression",
+      "It's an elevated smooth surface",
+      "It's a prominent rounded articular surface",
+      "It's a small, rounded process"
+    ],
+    answer: 3,
+    explanation: "اللقمة العظمية (Condyle) هي بروز عظمي مستدير وبارز يدخل في التمفصل (Prominent rounded surface)."
+  },
+  {
+    id: "anat_syn_28",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of facet?",
+    options: [
+      "It's a small shallow depression",
+      "It's an elevated smooth surface",
+      "It's a flat smooth articular surface",
+      "It's a prominent rounded surface",
+      "It's a small, rounded process"
+    ],
+    answer: 2,
+    explanation: "الـ Facet هو سطح تمفصلي مسطح وناعم (Flat smooth surface) كما في الفقرات."
+  },
+  {
+    id: "anat_syn_29",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of supination?",
+    options: [
+      "Palm of hand looks forwards (anteriorly)",
+      "Palm of hand looks dorsally",
+      "Rotation towards the lateral side of the body",
+      "Crossing of radius around ulna make palm looks dorsally",
+      "The sole of the foot turned inwards"
+    ],
+    answer: 0,
+    explanation: "الـ Supination هو حركة الساعد بحيث يتجه كف اليد للأمام (Palm looks forwards) في الوضع التشريحي ويكون الـ Radius والـ Ulna متوازيين."
+  },
+  {
+    id: "anat_syn_30",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of tubercle?",
+    options: [
+      "It's a small shallow depression",
+      "Small rounded/pointed process",
+      "It's a prominent rounded surface",
+      "It's a large rounded process",
+      "It's a flat smooth surface"
+    ],
+    answer: 1,
+    explanation: "الحديبة (Tubercle) هي بروز عظمي صغير مستدير أو مدبب (Small pointed/rounded process)."
+  },
+  {
+    id: "anat_syn_31",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of tuberosity?",
+    options: [
+      "It's a rough irregular surface / large rough elevation",
+      "Small, rounded process",
+      "It's a prominent rounded surface",
+      "It's a small shallow depression",
+      "It's a flat smooth surface"
+    ],
+    answer: 0,
+    explanation: "الأحدوبة (Tuberosity) هي منطقة مرتفعة خشنة غير منتظمة على سطح العظم (Rough irregular surface)."
+  },
+  {
+    id: "anat_syn_32",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of fovea?",
+    options: [
+      "It's a rough irregular surface",
+      "It's a small, rounded process",
+      "It's a small pit or depression",
+      "It's a flat smooth surface",
+      "It's a narrow groove"
+    ],
+    answer: 2,
+    explanation: "الـ Fovea هي نقرة أو حفرة صغيرة (Small pit) مثل Fovea capitis على رأس عظمة الفخذ."
+  },
+  {
+    id: "anat_syn_33",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of Sulcus?",
+    options: [
+      "It's a small, rounded process",
+      "It's a small pit",
+      "It's a flat smooth surface",
+      "It's a rough irregular surface",
+      "It's a narrow groove"
+    ],
+    answer: 4,
+    explanation: "الأخدود (Sulcus) هو مجرى أو شق ضيق وطويل على سطح العظم أو الأنسجة (A narrow groove)."
+  },
+  {
+    id: "anat_syn_34",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which is an example of an immovable joint?",
+    options: ["Shoulder", "Elbow", "Ankle", "Skull (Sutures)", "Intertarsal"],
+    answer: 3,
+    explanation: "دروز الجمجمة (Skull sutures) هي مفاصل ليفية عديمة الحركة (Immovable / Synarthrosis)."
+  },
+  {
+    id: "anat_syn_35",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of eversion?",
+    options: [
+      "Palm of hand looks forwards",
+      "Palm of hand looks dorsally",
+      "Rotation towards the lateral side of the body",
+      "Crossing of radius around ulna",
+      "The sole of the foot turned outwards"
+    ],
+    answer: 4,
+    explanation: "الـ Eversion هو توجيه باطن القدم للخارج (The sole of the foot turned outwards / laterally)."
+  },
+  {
+    id: "anat_syn_36",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints is a ball-and-socket joint in its variety?",
+    options: ["Shoulder", "Intertarsal", "Elbow", "Wrist", "Knee"],
+    answer: 0,
+    explanation: "مفصل الكتف (Shoulder joint) ومفصل الفخذ (Hip joint) من نوع Ball-and-socket synovial joints."
+  },
+  {
+    id: "anat_syn_37",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints is a pivot in its variety?",
+    options: ["Atlantoaxial", "Intervertebral", "Shoulder", "Wrist", "Ankle"],
+    answer: 0,
+    explanation: "المفصل الفهقي المحوري الوسطي (Median atlantoaxial joint) ومفصل الكعبرة والزند (Radioulnar joints) من نوع المفاصل المحورية (Pivot joints)."
+  },
+  {
+    id: "anat_syn_38",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of flexion?",
+    options: [
+      "A movement by which the angle of a joint is decreased",
+      "A movement by which the angle of a joint is increased",
+      "Movement toward the central axis",
+      "Movement away from the central axis",
+      "Rotation toward the medial side of the body"
+    ],
+    answer: 0,
+    explanation: "الثني (Flexion) هو حركة تقريب العظام المتجاورة مما يؤدي إلى نقصان زاوية المفصل (Angle of a joint is decreased)."
+  },
+  {
+    id: "anat_syn_39",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of extension?",
+    options: [
+      "A movement by which the angle of a joint is decreased",
+      "A movement by which the angle of a joint is increased",
+      "Movement toward the central axis",
+      "Movement away from the central axis",
+      "Rotation toward the medial side of the body"
+    ],
+    answer: 1,
+    explanation: "البسط (Extension) هو فرد المفصل مما يؤدي إلى زيادة زاوية المفصل (Angle of a joint is increased)."
+  },
+  {
+    id: "anat_syn_40",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of adduction?",
+    options: [
+      "A movement by which the angle of a joint is decreased",
+      "A movement by which the angle of a joint is increased",
+      "Movement toward the central axis (midline)",
+      "Movement away from the central axis",
+      "Rotation toward the medial side of the body"
+    ],
+    answer: 2,
+    explanation: "التقريب (Adduction) هو حركة الطرف باتجاه خط المنتصف (Toward the central axis / midline)."
+  },
+  {
+    id: "anat_syn_41",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of lateral rotation?",
+    options: [
+      "A movement by which the angle of a joint is decreased",
+      "A movement by which the angle of a joint is increased",
+      "Movement toward the central axis",
+      "Movement away from the central axis",
+      "Rotation / movements toward the lateral side of the body"
+    ],
+    answer: 4,
+    explanation: "الدوران الخارجي (Lateral / External rotation) هو دوران السطح الأمامي للطرف نحو الجانب الوحشي (Lateral side) بعيداً عن خط المنتصف."
+  },
+  {
+    id: "anat_syn_42",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the definition of medial rotation?",
+    options: [
+      "A movement by which the angle of a joint is decreased",
+      "Rotation / movements toward the medial side of the body",
+      "A movement by which the angle of a joint is increased",
+      "Movement toward the central axis",
+      "Movement away from the central axis"
+    ],
+    answer: 1,
+    explanation: "الدوران الداخلي (Medial / Internal rotation) هو دوران السطح الأمامي للطرف باتجاه خط المنتصف (Medial side)."
+  },
+  {
+    id: "anat_syn_43",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "In which of the following joints is the root of a tooth attached to a periodontal ligament and held into a tooth socket?",
+    options: ["Suture", "Gomphosis", "Synarthrosis", "Diarthrosis", "Amphiarthrosis"],
+    answer: 1,
+    explanation: "الـ Gomphosis (Peg-and-socket fibrous joint) هو المفصل الليفي الذي يثبت جذر السن في عظم الفك عبر الرباط حول السني (Periodontal ligament)."
+  },
+  {
+    id: "anat_syn_44",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the functional type of cushioning joint that allows limited movement and is found both in the symphysis pubis and in intervertebral discs?",
+    options: ["Gomphosis", "Suture", "Synarthrosis", "Diarthrosis", "Amphiarthrosis"],
+    answer: 4,
+    explanation: "من الناحية الوظيفية، المفاصل الغضروفية الليفية (Symphysis pubis & Intervertebral discs) محدودة الحركة وتسمى Amphiarthrosis."
+  },
+  {
+    id: "anat_syn_45",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following are the fibrocartilaginous pads that lie within certain synovial joints (like the knee), acting as a cushion and guiding the articulating bones?",
+    options: ["Articular cartilages", "Bursae", "Menisci", "Synovial membranes", "Capsule"],
+    answer: 2,
+    explanation: "الغضاريف الهلالية (Menisci) هي وسائد من الغضروف الليفي (Fibrocartilage) داخل مفصل الركبة لامتصاص الصدمات وتوجيه حركة العظام."
+  },
+  {
+    id: "anat_syn_46",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints are capable only of side-to-side and back-and-front movements, with no axial rotation?",
+    options: ["Hinge", "Gliding", "Pivot", "Condyloid", "Ball and socket"],
+    answer: 3,
+    explanation: "المفصل اللقمي (Condyloid / Ellipsoid joint) يسمح بالحركة في محورين (ثني/بسط + إبعاد/تقريب) دون دوران محوري."
+  },
+  {
+    id: "anat_syn_47",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "In which joint does an oval convex surface fit into an elliptical concave depression, making these joints biaxial?",
+    options: ["Hinge", "Saddle", "Condyloid", "Pivot", "Ball and socket"],
+    answer: 2,
+    explanation: "تطابق سطح بيضاوي محدب مع تجويف مقعر هو التعريف العلمي للمفصل اللقمي (Condyloid / Ellipsoid joint). تنبيه: في مفتاح ملف Synopsis تم تظليل B (Saddle).",
+    note: "تنبيه بصمجة الملف: متجاوب في ملف Synopsis رقم B (Saddle)، بينما التعريف العلمي لـ Oval surface into concave depression هو Condyloid."
+  },
+  {
+    id: "anat_syn_48",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of proximal?",
+    options: [
+      "Away from the trunk",
+      "Close to midline",
+      "Close to sagittal line",
+      "Close to coronal line",
+      "Close to the trunk (or root of the limb)"
+    ],
+    answer: 4,
+    explanation: "مصطلح Proximal يعني الأقرب إلى الجذع أو نقطة اتصال الطرف بالجسم (Close to the trunk)، وعكسه Distal."
+  },
+  {
+    id: "anat_syn_49",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "What is the variety of shoulder and hip joints?",
+    options: ["Ball-and-socket", "Saddle", "Pivot", "Gliding", "Condyloid"],
+    answer: 0,
+    explanation: "مفصلا الكتف والفخذ (Shoulder & Hip joints) من نوع Ball-and-socket synovial joints."
+  },
+  {
+    id: "anat_syn_50",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is saddle in its variety?",
+    options: ["Knee", "Ankle", "1st Carpometacarpal", "Hip", "Elbow"],
+    answer: 2,
+    explanation: "المفصل الرسغي السنعي الأول لإبهام اليد (1st Carpometacarpal joint) هو أشهر مثال للمفصل السرجي (Saddle joint)."
+  },
+  {
+    id: "anat_syn_51",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is an avascular body tissue?",
+    options: ["Bone", "Muscle", "Joint capsule", "Cartilage", "Visceral fascia"],
+    answer: 3,
+    explanation: "الغضروف (Cartilage) نسيج خالٍ تماماً من الأوعية الدموية (Avascular) ويتغذى بالانتشار (Diffusion)."
+  },
+  {
+    id: "anat_syn_52",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints is plane in its variety?",
+    options: ["Knee", "Ankle", "Hip", "Intercarpal", "Sternoclavicular"],
+    answer: 3,
+    explanation: "المفاصل بين عظام الرسغ (Intercarpal joints) وبين عظام الكاحل (Intertarsal joints) هي مفاصل مسطحة منزلقة (Plane synovial joints)."
+  },
+  {
+    id: "anat_syn_53",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "All of the following are movements of the knee joint EXCEPT:",
+    options: ["Flexion", "Extension", "Medial rotation", "Lateral rotation", "Adduction"],
+    answer: 4,
+    explanation: "مفصل الركبة هو Modified hinge joint يسمح بالثني والبسط (Flexion & Extension) مع درجة بسيطة من الدوران الداخلي والخارجي، لكنه لا يسمح بالـ Adduction أو الـ Abduction."
+  },
+  {
+    id: "anat_syn_54",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The arrangement of the fibers of which one of the following muscles is quadrilateral?",
+    options: [
+      "Quadratus lumborum (or Thyrohyoid)",
+      "Biceps brachii",
+      "Sartorius",
+      "Rectus abdominis",
+      "Rectus femoris"
+    ],
+    answer: 0,
+    explanation: "العضلات رباعية الأضلاع ذات الألياف المتوازية (Quadrilateral muscles) مثل Quadratus lumborum و Thyrohyoid."
+  },
+  {
+    id: "anat_syn_55",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The arrangement of the fibers of which one of the following muscles is strap-like?",
+    options: [
+      "Quadratus lumborum",
+      "Biceps brachii",
+      "Sartorius",
+      "Rectus abdominis",
+      "Rectus femoris"
+    ],
+    answer: 2,
+    explanation: "عضلة الـ Sartorius هي مثال للعضلات الشريطية الطويلة متوازية الألياف (Strap-like parallel muscle)."
+  },
+  {
+    id: "anat_syn_56",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is the meaning of median?",
+    options: [
+      "Close to midline",
+      "Parallel to midline",
+      "Exactly in midline",
+      "Parasagittal line",
+      "Coronal line"
+    ],
+    answer: 2,
+    explanation: "الخط أو المستوى الوسطي (Median) يقع في منتصف الجسم بالضبط (Exactly in midline)."
+  },
+  {
+    id: "anat_syn_57",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a unipennate muscle?",
+    options: [
+      "Flexor pollicis longus",
+      "Rectus femoris",
+      "Deltoid muscle",
+      "Tibialis anterior",
+      "Temporalis"
+    ],
+    answer: 0,
+    explanation: "عضلة الـ Flexor pollicis longus هي عضلة أحادية الريشة (Unipennate muscle)."
+  },
+  {
+    id: "anat_syn_58",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a bipennate muscle?",
+    options: [
+      "Flexor pollicis longus",
+      "Rectus femoris",
+      "Deltoid muscle",
+      "Tibialis anterior",
+      "Temporalis"
+    ],
+    answer: 1,
+    explanation: "عضلة الفخذ المستقيمة (Rectus femoris) هي عضلة ثنائية الريشة (Bipennate muscle)."
+  },
+  {
+    id: "anat_syn_59",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a multipennate muscle?",
+    options: [
+      "Flexor pollicis longus",
+      "Rectus femoris",
+      "Deltoid muscle",
+      "Tibialis anterior",
+      "Temporalis"
+    ],
+    answer: 2,
+    explanation: "العضلة الدالية (Deltoid muscle) في الكتف هي المثال الأشهر للعضلات متعددة الريش (Multipennate muscle)."
+  },
+  {
+    id: "anat_syn_60",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Superficial fascia in all of the following sites does NOT contain adipose (fat) connective tissue EXCEPT:",
+    options: ["Clitoris", "Subcutaneous tissue (general body)", "Eyelid", "Penis", "Scrotum"],
+    answer: 1,
+    explanation: "اللفافة السطحية (Superficial fascia / Subcutaneous tissue) تحتوي بشكل طبيعي على دهون في معظم الجسم، بينما تخلو من الدهون في جفن العين (Eyelid)، القضيب (Penis)، الصفن (Scrotum)، والبظر (Clitoris)."
+  },
+  {
+    id: "anat_syn_61",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a circumpennate muscle?",
+    options: [
+      "Flexor pollicis longus",
+      "Rectus femoris",
+      "Deltoid muscle",
+      "Tibialis anterior",
+      "Temporalis"
+    ],
+    answer: 3,
+    explanation: "عضلة الـ Tibialis anterior هي المثال الكلاسيكي للعضلات محيطية الريشة (Circumpennate muscle)."
+  },
+  {
+    id: "anat_syn_62",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The arrangement of the fibers of which one of the following muscles is spiral / twisted?",
+    options: [
+      "Quadratus lumborum",
+      "Biceps brachii",
+      "Trapezius (or Supinator / Latissimus dorsi)",
+      "Rectus abdominis",
+      "Rectus femoris"
+    ],
+    answer: 2,
+    explanation: "من العضلات ذات الألياف الحلزونية أو الملتفة (Spiral fibers) عضلة الـ Supinator والـ Latissimus dorsi والـ Pectoralis major والـ Trapezius."
+  },
+  {
+    id: "anat_syn_63",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The arrangement of the fibers of which one of the following muscles is cruciate (crossed)?",
+    options: [
+      "Quadratus lumborum",
+      "Biceps brachii",
+      "Trapezius",
+      "Sternomastoid (Sternocleidomastoid)",
+      "Rectus femoris"
+    ],
+    answer: 3,
+    explanation: "العضلة القصية الترقوية الخشائية (Sternocleidomastoid) والـ Masseter من أمثلة العضلات ذات الألياف المتصالبة (Cruciate muscles)."
+  },
+  {
+    id: "anat_syn_64",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is insensitive to pain (devoid of sensory nerve receptors)?",
+    options: ["Bone", "Muscle", "Joint capsule", "Cartilage", "Deep fascia"],
+    answer: 3,
+    explanation: "الغضروف (Cartilage) خالٍ من الأوعية الدموية (Avascular) وخالٍ من النهايات العصبية الحسية (Insensitive to pain)."
+  },
+  {
+    id: "anat_syn_65",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The arrangement of the fibers of which of the following muscles is circular (sphincteric)?",
+    options: [
+      "Quadratus lumborum",
+      "Biceps brachii",
+      "Trapezius",
+      "Sternomastoid",
+      "Orbicularis oculi"
+    ],
+    answer: 4,
+    explanation: "عضلة الـ Orbicularis oculi (حول العين) والـ Orbicularis oris (حول الفم) ذات ألياف دائرية (Circular arrangement)."
+  },
+  {
+    id: "anat_syn_66",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is a prime mover (agonist) for elbow flexion?",
+    options: ["Brachialis", "Coracobrachialis", "Triceps", "Quadriceps", "Deltoid"],
+    answer: 0,
+    explanation: "عضلة الـ Brachialis هي المحرك الرئيسي (Prime mover) لثني مفصل الكوع (Elbow flexion)."
+  },
+  {
+    id: "anat_syn_67",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following acts as a synergist (with Brachialis) in elbow flexion?",
+    options: ["Brachialis", "Biceps brachii", "Triceps", "Quadriceps", "Deltoid"],
+    answer: 1,
+    explanation: "عضلة الـ Biceps brachii تعمل كعضلة مساعدة (Synergist) مع الـ Brachialis أثناء ثني مفصل الكوع."
+  },
+  {
+    id: "anat_syn_68",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The sympathetic nervous system originates from lateral horn cells of which of the following spinal segments (Thoracolumbar outflow)?",
+    options: [
+      "All cervical",
+      "All thoracic",
+      "All thoracic and first two lumbar (T1–L2)",
+      "All thoracic and all lumbar",
+      "All lumbar"
+    ],
+    answer: 2,
+    explanation: "الجهاز العصبي السمبثاوي يخرج من القرون الجانبية للحبل الشوكي في جميع القطع الصدرية وأول قطعتين قطنيتين (T1 to L2 = Thoracolumbar outflow)."
+  },
+  {
+    id: "anat_syn_69",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The parasympathetic nervous system originates from lateral horn cells of which of the following spinal segments?",
+    options: [
+      "All cervical",
+      "All thoracic",
+      "All sacral",
+      "2nd, 3rd, 4th sacral (S2, S3, S4)",
+      "3rd, 4th and 5th sacral"
+    ],
+    answer: 3,
+    explanation: "الجزء العجزي من الجهاز الباراسمبثاوي يخرج من القطع العجزية الثانية والثالثة والرابعة (S2, S3, S4) بالإضافة للأعصاب المخية (3, 7, 9, 10) = Craniosacral outflow."
+  },
+  {
+    id: "anat_syn_70",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following cranial nerves carry parasympathetic fibers?",
+    options: [
+      "2nd, 3rd and 4th cranial nerves",
+      "4th, 5th and 6th cranial nerves",
+      "3rd, 7th, 9th and 10th cranial nerves",
+      "10th, 11th and 12th cranial nerves",
+      "All cranial nerves"
+    ],
+    answer: 2,
+    explanation: "الأعصاب المخية التي تحمل أليافاً باراسمبثاوية هي (1973): العصب الثالث (III)، السابع (VII)، التاسع (IX)، والعاشر (X - Vagus)."
+  },
+  {
+    id: "anat_syn_71",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a long bone?",
+    options: ["Humerus", "Scapula", "Skull", "Sternum", "Carpal"],
+    answer: 0,
+    explanation: "عظمة العضد (Humerus) من العظام الطويلة النموذجية (Typical long bones)."
+  },
+  {
+    id: "anat_syn_72",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The site of active tissue cells gas and nutrient exchange is which of the following?",
+    options: ["Arteries", "Veins", "Lymphatics", "Capillaries", "Anastomotic sites"],
+    answer: 3,
+    explanation: "الشعيرات الدموية (Capillaries) هي موضع تبادل الغازات والمغذيات بين الدم وخلايا الأنسجة."
+  },
+  {
+    id: "anat_syn_73",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a short (or miniature long) bone in the Synopsis bank?",
+    options: ["Humerus", "Scapula", "Skull", "Sternum", "Phalanx"],
+    answer: 4,
+    explanation: "في بنك Synopsis تم اختيار (Phalanx) كإجابة لأن باقي الاختيارات عظام طويلة كبيرة أو مسطحة، وعلمياً الـ Phalanges هي عظام طويلة مصغرة (Miniature long bones) ذات مركز تعظم طرفي واحد.",
+    note: "تنبيه بصمجة الملف: الإجابة المختارة في ملف Synopsis هي Phalanx."
+  },
+  {
+    id: "anat_syn_74",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Humerus is classified according to its shape as which of the following?",
+    options: ["Short bone", "Long bone", "Flat bone", "Irregular bone", "Sesamoid bone"],
+    answer: 1,
+    explanation: "عظمة العضد (Humerus) تُصنف حسب الشكل كعظمة طويلة (Long bone)."
+  },
+  {
+    id: "anat_syn_75",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Patella is classified according to its shape as which of the following?",
+    options: ["Short bone", "Long bone", "Flat bone", "Irregular bone", "Sesamoid bone"],
+    answer: 4,
+    explanation: "عظمة الرضفة (Patella) تُصنف كعظمة سمسمانية (Sesamoid bone)."
+  },
+  {
+    id: "anat_syn_76",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as a flat bone?",
+    options: ["Radius", "Ulna", "Skull", "Carpus", "Tarsus"],
+    answer: 2,
+    explanation: "عظام قبوة الجمجمة (Skull vault)، لوح الكتف (Scapula)، القص (Sternum)، والضلوع (Ribs) من العظام المسطحة (Flat bones)."
+  },
+  {
+    id: "anat_syn_77",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Skull vault is classified according to its shape as which of the following?",
+    options: ["Short bone", "Long bone", "Flat bone", "Irregular bone", "Sesamoid bone"],
+    answer: 2,
+    explanation: "عظام قبوة الجمجمة (Skull cap) تُصنف كعظام مسطحة (Flat bones)."
+  },
+  {
+    id: "anat_syn_78",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is classified as irregular bones?",
+    options: ["Femur", "Tibia", "Ilium", "Facial bones", "Skull cap"],
+    answer: 3,
+    explanation: "عظام الوجه (Facial bones) والفقرات (Vertebrae) تُصنف ضمن العظام غير المنتظمة (Irregular bones)."
+  },
+  {
+    id: "anat_syn_79",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Carpals of the wrists and the tarsals of the ankles are classified according to their shape as which of the following?",
+    options: ["Short bone", "Long bone", "Flat bone", "Irregular bone", "Sesamoid bone"],
+    answer: 0,
+    explanation: "عظام رسغ اليد (Carpals) وعظام الكاحل (Tarsals) هي المثال النموذجي للعظام القصيرة (Short bones)."
+  },
+  {
+    id: "anat_syn_80",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The cell responsible for bone remodeling (bone resorption) is named:",
+    options: ["Chondroblast", "Osteocyte", "Osteoblast", "Osteoclast", "Fibroblast"],
+    answer: 3,
+    explanation: "الخلايا الآكلة للعظم (Osteoclasts) هي المسؤولة عن ارتشاف العظم وإعادة تشكيله (Bone resorption & remodeling)."
+  },
+  {
+    id: "anat_syn_81",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "All of the following are mediated by the sympathetic nervous system EXCEPT:",
+    options: [
+      "Dilates pupil",
+      "Inhibits salivation",
+      "Relaxes bronchi",
+      "Accelerates heart",
+      "Stimulates digestive activity"
+    ],
+    answer: 4,
+    explanation: "الجهاز السمبثاوي (Fight or Flight) يثبط حركة وإفرازات الجهاز الهضمي، بينما تحفيز الهضم (Stimulate digestive activity) هو وظيفة الجهاز الباراسمبثاوي."
+  },
+  {
+    id: "anat_syn_82",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "All of the following are mediated by the parasympathetic nervous system EXCEPT:",
+    options: [
+      "Constricts pupil",
+      "Relaxes urinary bladder wall",
+      "Increases salivation",
+      "Decelerates heart",
+      "Constricts bronchi"
+    ],
+    answer: 1,
+    explanation: "الجهاز الباراسمبثاوي يسبب انقباض جدار المثانة (Contracts bladder wall) لإفراغ البول، بينما ارتخاء جدار المثانة (Relax bladder) يتم بواسطة السمبثاوي."
+  },
+  {
+    id: "anat_syn_83",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "All of the following organs have smooth muscle fibers in their structures EXCEPT:",
+    options: ["Urinary bladder", "Uterus", "Stomach", "Intestines", "Heart"],
+    answer: 4,
+    explanation: "القلب (Heart) يتكون من عضلة قلبية مخططة لاإرادية (Cardiac muscle)، وليس عضلات ملساء (Smooth muscles)."
+  },
+  {
+    id: "anat_syn_84",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which one of the following bones is classified as a 'long bone'?",
+    options: ["Rib", "Clavicle", "Sternum", "Manubrium", "Thoracic vertebra"],
+    answer: 1,
+    explanation: "عظمة الترقوة (Clavicle) هي عظمة طويلة معدلة (Modified long bone) وتوضع أفقياً ولا تحتوي على تجويف نخاعي."
+  },
+  {
+    id: "anat_syn_85",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The manubrium forms an 'atypical' joint with which of the following (according to the Synopsis key)?",
+    options: [
+      "Clavicle",
+      "1st costal cartilage",
+      "2nd costal cartilage",
+      "1st thoracic vertebra",
+      "Body of the Sternum"
+    ],
+    answer: 1,
+    explanation: "يرتبط الـ Manubrium مع الغضروف الضلعي الأول (1st costal cartilage) بمفصل غضروفي أولي غير متحرك (Synchondrosis)، ومع الترقوة بمفصل زلالي غير نمطي (Saddle synovial).",
+    note: "تنبيه بصمجة الملف: الإجابة المظللة في ملف Synopsis هي B (1st costal cartilage)."
+  },
+  {
+    id: "anat_syn_86",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which one of the following synovial joints is of the 'saddle' type?",
+    options: [
+      "Sternocostal joint",
+      "Interchondral joint",
+      "Costovertebral joint",
+      "Costotransverse joint",
+      "Sternoclavicular joint"
+    ],
+    answer: 4,
+    explanation: "المفصل القصي الترقوي (Sternoclavicular joint) يُصنف كمفصل زلالي سرجي (Saddle-type synovial joint)."
+  },
+  {
+    id: "anat_syn_87",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "How many bones does an adult human skeleton have?",
+    options: ["205", "206", "207", "210", "215"],
+    answer: 1,
+    explanation: "يتكون الهيكل العظمي للإنسان البالغ من 206 عظمة (80 محوري Axial + 126 طرفي Appendicular)."
+  },
+  {
+    id: "anat_syn_88",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following connective tissue membranes envelopes the outer surface of bone?",
+    options: ["Periosteum", "Marrow", "Perimysium", "Endomysium", "Endosteum"],
+    answer: 0,
+    explanation: "سمحاق العظم الخارجي (Periosteum) هو الغشاء الضام الليفي الذي يغلف السطح الخارجي للعظم."
+  },
+  {
+    id: "anat_syn_89",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which cell secretes the organic matrix (osteoid) for bone formation?",
+    options: ["Osteoclastoma", "Osteoclast", "Mesoblasts", "Osteoblasts", "Myoblast"],
+    answer: 3,
+    explanation: "الخلايا البانية للعظم (Osteoblasts) هي المسؤولة عن تكوين وإفراز المادة الخلالية للعظم (Bone matrix)."
+  },
+  {
+    id: "anat_syn_90",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following is considered the vestigial (tailbone) bony part of the human skeleton?",
+    options: ["Cervical vertebrae", "Cranium", "Clavicle", "Coccyx", "Last rib"],
+    answer: 3,
+    explanation: "عظمة العصعص (Coccyx / Tailbone) تمثل الجزء العظمي الضامر (Vestigial part) في نهاية العمود الفقري للإنسان."
+  },
+  {
+    id: "anat_syn_91",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Functional division of joints that are fibrous in nature permitting no movement is which of the following?",
+    options: ["Gomphosis", "Amphiarthrosis", "Diarthrosis", "Synarthroses", "Syndesmosis joint"],
+    answer: 3,
+    explanation: "المفاصل عديمة الحركة وظيفياً تسمى Synarthroses، بينما محدودة الحركة Amphiarthroses، وواسعة الحركة Diarthroses."
+  },
+  {
+    id: "anat_syn_92",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Humans have which of the following structural types of joints between the sternum and ribs (costal cartilages)?",
+    options: ["Gliding", "Angular", "Cartilaginous", "Fibrous", "Rotatory"],
+    answer: 2,
+    explanation: "ترتبط الضلوع بعظمة القص عبر الغضاريف الضلعية مكونة مفاصل غضروفية (Cartilaginous / Chondrosternal joints)."
+  },
+  {
+    id: "anat_syn_93",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The joint of the elbow is an example of which of the following?",
+    options: ["Hinge joint", "Ball and socket joint", "Pivot joint", "Gliding joint", "Condyloid"],
+    answer: 0,
+    explanation: "مفصل الكوع (Elbow joint) هو مثال كلاسيكي للمفصل الرزي أحادي المحور (Hinge synovial joint)."
+  },
+  {
+    id: "anat_syn_94",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Which of the following joints does NOT allow any movement?",
+    options: ["Synovial joint", "Fibrous joint", "Ball and Socket joint", "Cartilaginous joint", "Plane joint"],
+    answer: 1,
+    explanation: "المفاصل الليفية (Fibrous joints) لا تسمح بالحركة (Immovable)."
+  },
+  {
+    id: "anat_syn_95",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The name of the joint between the skull bones is which of the following?",
+    options: ["Sutures", "Cartilaginous", "Synovial", "Hinge", "Condylar"],
+    answer: 0,
+    explanation: "المفاصل الليفية بين عظام الجمجمة تسمى الدروز (Sutures)."
+  },
+  {
+    id: "anat_syn_96",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "A skeletal muscle bundle (fasciculus) is held together and surrounded by a connective tissue layer named which of the following?",
+    options: ["Ligaments", "Fasciculus", "Perimysium", "Fascia", "Aponeurosis"],
+    answer: 2,
+    explanation: "يُحاط كل حزمة عضلية (Muscle bundle / Fasciculus) بغلاف ضام يسمى Perimysium، بينما تُحاط الليفة الواحدة بـ Endomysium والعضلة كلها بـ Epimysium."
+  },
+  {
+    id: "anat_syn_97",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "Haversian canals (Osteons) occur prominently in the shaft of which of the following?",
+    options: ["Humerus", "Scapula", "Pubis", "Clavicle", "Vertebra"],
+    answer: 0,
+    explanation: "قنوات هافرس (Haversian systems) توجد في العظم الكثيف (Compact bone) المكون لساق العظام الطويلة مثل عظمة العضد (Humerus)."
+  },
+  {
+    id: "anat_syn_98",
+    source: "bank_anatomy",
+    subject: "anatomy",
+    type: "mcq",
+    q: "The growth zone of a long bone is referred to as which of the following?",
+    options: ["Osteon", "Epiphyseal plate", "Articular surface", "Diaphysis", "Osteocyte"],
+    answer: 1,
+    explanation: "منطقة النمو الطولي في العظام الطويلة هي صفيحة المشاشة الغضروفية (Epiphyseal growth plate)."
   }
 ];

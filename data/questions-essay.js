@@ -21,6 +21,12 @@ window.ESSAY_SOURCES = [
     title: "بنك أسئلة المقالي الشامل (ملف المقالي - 20 سؤال)",
     subtitle: "Comprehensive Written / Enumerate Questions (Anatomy & Histology)",
     badge: "بنك المقالي الشامل 📌"
+  },
+  {
+    id: "essay_bank_q2",
+    title: "بنك الأسئلة المقالية الجديد (SEQs Bank - Q2)",
+    subtitle: "Biochemistry, Anatomy & Pharmacology Short-Answer Questions",
+    badge: "تجميعة SEQs الجديدة 📝"
   }
 ];
 
@@ -462,5 +468,289 @@ window.QUESTIONS_ESSAY = [
       "4. Fixator: Stabilizes the origin of the prime mover so it can act efficiently."
     ],
     tip: "تقسيم العضلات حسب الوظيفة (Action): Prime mover, Antagonist, Synergist, Fixator."
+  },
+
+  // ==========================================
+  // NEW SEQs & SHORT-ANSWER QUESTIONS (Q2 Folder)
+  // ==========================================
+  {
+    id: "meq_q2_bio_1",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the three types of fatty acids according to saturation giving examples of each.",
+    points: [
+      "1. Saturated fatty acids (no double bonds): e.g., Palmitic acid (16C), Stearic acid (18C), Butyric acid (4C).",
+      "2. Monounsaturated fatty acids (MUFA - one double bond): e.g., Oleic acid (18:1 ω9), Palmitoleic acid (16:1 ω7).",
+      "3. Polyunsaturated fatty acids (PUFA - two or more double bonds): e.g., Linoleic acid (18:2 ω6), Linolenic acid (18:3 ω3), Arachidonic acid (20:4 ω6)."
+    ],
+    tip: "أنواع الأحماض الدهنية حسب التشبع: Saturated (Palmitic), Monounsaturated (Oleic), Polyunsaturated (Linoleic / Arachidonic)."
+  },
+  {
+    id: "meq_q2_bio_2",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Classify monosaccharides according to their functional group giving an example of each.",
+    points: [
+      "1. Aldoses (contain an aldehyde group -CHO at C1): e.g., Glyceraldehyde (triose), Ribose (pentose), Glucose (hexose), Galactose (hexose).",
+      "2. Ketoses (contain a ketone group >C=O at C2): e.g., Dihydroxyacetone (triose), Ribulose (pentose), Fructose (hexose)."
+    ],
+    tip: "حسب المجموعة الوظيفية: Aldoses (Glucose, Galactose) و Ketoses (Fructose, Dihydroxyacetone)."
+  },
+  {
+    id: "meq_q2_bio_3",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the essential amino acids.",
+    points: [
+      "The 10 essential (or 8 strictly essential in adults) amino acids that cannot be synthesized de novo by the human body and must be supplied in the diet are:",
+      "1. Isoleucine",
+      "2. Leucine",
+      "3. Lysine",
+      "4. Methionine",
+      "5. Phenylalanine",
+      "6. Threonine",
+      "7. Tryptophan",
+      "8. Valine",
+      "9. Histidine (essential in infants / semi-essential in adults)",
+      "10. Arginine (semi-essential for rapid growth)"
+    ],
+    tip: "بصمجة مشهورة للأحماض الأساسية: (PVT TIM HALL) = Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine."
+  },
+  {
+    id: "meq_q2_bio_4",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the semi-essential amino acids.",
+    points: [
+      "1. Arginine",
+      "2. Histidine",
+      "Explanation: Synthesized by the body in amounts sufficient for adult maintenance, but inadequate during periods of rapid growth, pregnancy, lactation, or illness."
+    ],
+    tip: "الأحماض شبه الأساسية (Semi-essential): Arginine و Histidine."
+  },
+  {
+    id: "meq_q2_bio_5",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Classify carbohydrates according to hydrolysis (number of sugar units).",
+    points: [
+      "1. Monosaccharides: Simple sugars that cannot be hydrolyzed into simpler carbohydrate units (e.g., Glucose, Fructose, Galactose).",
+      "2. Disaccharides: Condensation products yielding 2 monosaccharide units on hydrolysis (e.g., Maltose, Lactose, Sucrose).",
+      "3. Oligosaccharides: Yield 3 to 10 monosaccharide units on hydrolysis (e.g., Maltotriose, Raffinose).",
+      "4. Polysaccharides (Glycans): Polymers yielding more than 10 monosaccharide units on hydrolysis (e.g., Starch, Glycogen, Cellulose, Dextrin)."
+    ],
+    tip: "تقسيم الكربوهيدرات حسب التحلل: Monosaccharides (1), Disaccharides (2), Oligosaccharides (3-10), Polysaccharides (>10)."
+  },
+  {
+    id: "meq_q2_bio_6",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Classify polysaccharides giving an example of each.",
+    points: [
+      "1. Homopolysaccharides (Homoglycans): Composed of repeated units of only ONE type of monosaccharide:",
+      "   - Starch & Glycogen (storage forms of α-D-glucose)",
+      "   - Cellulose (structural plant polymer of β-D-glucose)",
+      "   - Dextran & Inulin",
+      "2. Heteropolysaccharides (Heteroglycans / GAGs): Composed of two or more different types of monosaccharides or their derivatives:",
+      "   - Heparin (anticoagulant)",
+      "   - Hyaluronic acid (synovial fluid & vitreous body)",
+      "   - Chondroitin sulfate (cartilage & bone matrix)"
+    ],
+    tip: "السكريات المتعددة: Homopolysaccharides (Starch, Cellulose) و Heteropolysaccharides (Heparin, Hyaluronic acid)."
+  },
+  {
+    id: "meq_q2_bio_7",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the two groups of essential PUFAs giving an example of each.",
+    points: [
+      "1. Omega-3 (ω-3) Fatty Acids (first double bond at C3 from methyl end):",
+      "   - Alpha-linolenic acid (ALA: 18:3 ω3)",
+      "   - Eicosapentaenoic acid (EPA: 20:5 ω3) & Docosahexaenoic acid (DHA: 22:6 ω3)",
+      "2. Omega-6 (ω-6) Fatty Acids (first double bond at C6 from methyl end):",
+      "   - Linoleic acid (LA: 18:2 ω6)",
+      "   - Arachidonic acid (ARA: 20:4 ω6 - synthesized from linoleic acid)"
+    ],
+    tip: "مجموعتا الأحماض غير المشبعة الأساسية: Omega-3 (Alpha-linolenic acid) و Omega-6 (Linoleic acid)."
+  },
+  {
+    id: "meq_q2_bio_8",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the acidic amino acids (Monoamino-dicarboxylic acids).",
+    points: [
+      "1. Aspartic acid (Aspartate) - contains an extra β-carboxyl group (-COOH).",
+      "2. Glutamic acid (Glutamate) - contains an extra γ-carboxyl group (-COOH).",
+      "(Both carry a net negative charge at physiological pH 7.4)."
+    ],
+    tip: "الأحماض الأمينية الحامضية 2: Aspartic acid و Glutamic acid."
+  },
+  {
+    id: "meq_q2_bio_9",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the basic amino acids (Diamino-monocarboxylic acids).",
+    points: [
+      "1. Lysine (contains an ε-amino group).",
+      "2. Arginine (contains a guanidinium group, the most basic amino acid).",
+      "3. Histidine (contains an imidazole ring).",
+      "(They carry a net positive charge at physiological pH)."
+    ],
+    tip: "الأحماض الأمينية القاعدية 3: Lysine, Arginine, Histidine."
+  },
+  {
+    id: "meq_q2_bio_10",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the sulphur-containing amino acids.",
+    points: [
+      "1. Methionine (contains a nonpolar thioether methyl group -S-CH3; essential).",
+      "2. Cysteine (contains a reactive polar sulfhydryl / thiol group -SH; forms disulfide bonds in cystine)."
+    ],
+    tip: "الأحماض الكبريتية 2: Methionine و Cysteine."
+  },
+  {
+    id: "meq_q2_bio_11",
+    source: "essay_bank_q2",
+    subject: "biochemistry",
+    marks: "Biochem SEQ",
+    q: "Mention the hydroxyl group (-OH) containing amino acids.",
+    points: [
+      "1. Serine (aliphatic hydroxy amino acid).",
+      "2. Threonine (aliphatic hydroxy amino acid, essential).",
+      "3. Tyrosine (aromatic hydroxy amino acid containing a phenolic -OH group)."
+    ],
+    tip: "الأحماض المحتوية على هيدروكسيل (-OH) هم 3: Serine, Threonine, Tyrosine."
+  },
+  {
+    id: "meq_q2_anat_1",
+    source: "essay_bank_q2",
+    subject: "anatomy",
+    marks: "Anatomy SEQ",
+    q: "Define the following anatomical terms of movement and direction: Flexion, Extension, Abduction, Adduction, Circumduction, Eversion, Supination, Proximal, Dorsal.",
+    points: [
+      "• Flexion: Bending a joint to decrease the angle between two articulating bones or body parts.",
+      "• Extension: Straightening a joint to increase the angle between two body parts back to the anatomical position.",
+      "• Abduction: Moving a limb or digit away from the median plane (midline) of the body.",
+      "• Adduction: Moving a limb or digit toward the median plane (midline) of the body.",
+      "• Circumduction: A sequential combination of flexion, extension, abduction, and adduction causing a limb or digit to move in a conical path.",
+      "• Eversion: Tilting or rotating the foot so that the sole faces laterally (outwards).",
+      "• Supination: Lateral rotation of the forearm that positions the palm anteriorly (forwards) in anatomical position.",
+      "• Proximal: Closer to the attachment point (root) of a limb or nearer to the center of the body.",
+      "• Dorsal: Pertaining to or directed toward the posterior surface (back) of the body."
+    ],
+    tip: "مراجعة سريعة للمصطلحات: Flexion (نقص زاوية المفصل), Extension (زيادة زاوية المفصل), Abduction (إبعاد), Adduction (تقريب), Eversion (باطن القدم للخارج), Supination (الكف للأمام)."
+  },
+  {
+    id: "meq_q2_anat_2",
+    source: "essay_bank_q2",
+    subject: "anatomy",
+    marks: "Anatomy SEQ",
+    q: "Name the types of blood vessels in the human body and state the primary characteristics of each.",
+    points: [
+      "1. Arteries: Thick-walled, elastic and muscular vessels that carry blood away from the heart under high pressure (e.g., Aorta, Femoral artery, Pulmonary trunk).",
+      "2. Veins: Thinner-walled, collapsible vessels with larger lumens and internal valves that carry blood back toward the heart under low pressure (e.g., Superior and Inferior Vena Cava, Pulmonary veins).",
+      "3. Capillaries: Microscopic, single-endothelial-layered vessels forming vast networks between arterioles and venules, functioning as the primary site of gas, nutrient, fluid, and waste exchange between blood and interstitial fluid."
+    ],
+    tip: "أنواع الأوعية الدموية: Arteries (تنقل الدم بعيداً عن القلب), Veins (تعيد الدم للقلب وبها صمامات), Capillaries (شعيرات دقيقة لتبادل الغازات والمغذيات)."
+  },
+  {
+    id: "meq_q2_pha_1",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "Define Pharmacology, Pharmacokinetics, and Pharmacodynamics.",
+    points: [
+      "• Pharmacology: The comprehensive science studying chemical agents and drugs that interact with living organisms through chemical processes, producing therapeutic, diagnostic, or toxic responses.",
+      "• Pharmacokinetics (PK): What the body does to the drug, studying the time course of drug Absorption, Distribution, Metabolism (biotransformation), and Excretion (ADME).",
+      "• Pharmacodynamics (PD): What the drug does to the body, studying the physiological, biochemical mechanisms of drug action and concentration-effect relationships in target tissues."
+    ],
+    tip: "الفرق الأساسي: Pharmacokinetics = ما يفعله الجسم بالدواء (ADME). Pharmacodynamics = ما يفعله الدواء بالجسم وآلية عمله."
+  },
+  {
+    id: "meq_q2_pha_2",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "Define Bioavailability, Bioequivalence, and First-Pass Effect.",
+    points: [
+      "• Bioavailability: The fraction and rate of an administered dose of unchanged drug that reaches the systemic circulation (100% for IV administration).",
+      "• Bioequivalence: When two drug formulations containing identical active ingredients demonstrate comparable bioavailability curves and therapeutic clinical effects.",
+      "• First-Pass Effect (Hepatic first-pass metabolism): The rapid hepatic and intestinal metabolic degradation of an orally absorbed drug before it enters the systemic circulation, which significantly decreases its bioavailability (completely bypassed by intravenous, sublingual, or topical routes)."
+    ],
+    tip: "Bioavailability (نسبة الدواء الواصل للدورة الدموية سليماً), Bioequivalence (تكافؤ مستحضرين), First-pass effect (استقلاب الدواء في الكبد قبل وصوله للدورة الدموية)."
+  },
+  {
+    id: "meq_q2_pha_3",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "List four factors affecting drug absorption and name the three main routes of drug administration with examples.",
+    points: [
+      "A. Four Factors Affecting Drug Absorption:",
+      "   1. Route of administration and pharmaceutical formulation (liquids vs tablets).",
+      "   2. Surface area and blood supply of the absorptive site (small intestine > stomach).",
+      "   3. Lipid solubility and ionization status of the drug molecule.",
+      "   4. Gastric emptying time, GI motility, food interactions, and stomach acidity (pH).",
+      "B. Three Main Routes of Administration:",
+      "   1. Enteral: Oral (tablets), Sublingual (nitroglycerin), Buccal, Rectal (suppositories).",
+      "   2. Parenteral: Intravenous (IV - fastest), Intramuscular (IM), Subcutaneous (SC), Intrathecal.",
+      "   3. Topical: Transdermal patches, eye/ear drops, inhalation into lungs, vaginal creams."
+    ],
+    tip: "طرق إعطاء الدواء الثلاث: Enteral (فموي ومعوي), Parenteral (حقن وريدي وعضلي), Topical (موضعي وجلدي واستنشاق)."
+  },
+  {
+    id: "meq_q2_pha_4",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "Differentiate between Therapeutic effect, Side effect, Toxic effect, and Idiosyncratic reaction.",
+    points: [
+      "• Therapeutic Effect: The desired, intended, and predictable beneficial clinical response for which the drug is prescribed.",
+      "• Side Effect: A predictable, secondary, unavoidable effect occurring at standard therapeutic doses that may be mild or bothersome (e.g., drowsiness with antihistamines).",
+      "• Toxic Effect: An exaggerated, harmful, often life-threatening drug reaction arising from excessive dosage, drug accumulation, or severely impaired renal/hepatic elimination (e.g., respiratory arrest from opioid overdose).",
+      "• Idiosyncratic Reaction: A rare, completely unpredictable, abnormal reaction (hyper-responsiveness, hypo-responsiveness, or paradoxical response) typically caused by genetic variations in drug-metabolizing enzymes (e.g., hemolysis in G6PD deficiency upon taking sulfonamides)."
+    ],
+    tip: "أنواع استجابة الدواء: Therapeutic (المطلوب), Side effect (غير مقصود لكن متوقع), Toxic (سام بسبب جرعة زائدة أو تراكم), Idiosyncratic (نادر وغير متوقع وراثياً)."
+  },
+  {
+    id: "meq_q2_pha_5",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "Define Half-life, Onset of action, Peak level, Duration of action, and Therapeutic Index.",
+    points: [
+      "• Half-life (t½): The time required for the body's elimination processes to reduce the concentration of a drug in the plasma by 50%.",
+      "• Onset of Action: The elapsed time between drug administration and the first discernible therapeutic response.",
+      "• Peak Plasma Concentration: The time at which the drug reaches its maximum concentration in the blood, producing its peak therapeutic effect.",
+      "• Duration of Action: The total length of time that drug concentration remains above the minimum effective concentration (MEC) to produce clinical therapeutic benefit.",
+      "• Therapeutic Index (TI): The ratio between the median toxic dose (TD50) and median effective dose (ED50); drugs with a narrow / low TI require therapeutic drug monitoring."
+    ],
+    tip: "المعايير الزمنية للدواء: Onset (بدء التأثير), Peak (أعلى تأثير), Duration (مدة التأثير), Half-life (نصف عمر الدواء), Therapeutic Index (مؤشر الأمان)."
+  },
+  {
+    id: "meq_q2_pha_6",
+    source: "essay_bank_q2",
+    subject: "pharmacology",
+    marks: "Pharma SEQ",
+    q: "List the traditional Five Rights of Medication Administration.",
+    points: [
+      "1. Right Patient (verifying patient identity using two unique identifiers).",
+      "2. Right Drug (verifying the correct medication name, formulation, and indication).",
+      "3. Right Dose (calculating and double-checking the exact prescribed dose).",
+      "4. Right Route (confirming the prescribed route: oral, IV, IM, SC, etc.).",
+      "5. Right Time (administering at the precise scheduled intervals and timing)."
+    ],
+    tip: "حقوق إعطاء الدواء الخمسة: Right Patient, Right Drug, Right Dose, Right Route, Right Time."
   }
 ];

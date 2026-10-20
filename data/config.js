@@ -468,12 +468,12 @@ window.APP_CONFIG = {
     {
       id: "bank_anatomy",
       category: "subject_bank",
-      title: "بنك أسئلة التشريح (Anatomy Bank)",
-      subtitle: "General Anatomy Introduction MCQs",
+      title: "بنك أسئلة التشريح الشامل (Anatomy & Synopsis Bank)",
+      subtitle: "Synopsis in Systemic Anatomy 2024 + General Anatomy MCQs",
       year: "بنك المادة",
-      badge: "Anatomy",
-      durationMinutes: 15,
-      description: "أسئلة مركزة على الاتجاهات التشريحية، أنواع العظام، الغضاريف، المفاصل، والعضلات."
+      badge: "105+ سؤال شامل 🦴",
+      durationMinutes: 60,
+      description: "بنك شامل يغطي جميع أسئلة كتاب Synopsis in Systemic Anatomy وبنك التشريح العام (العظام، الغضاريف، المفاصل، العضلات، والأعصاب)."
     },
     {
       id: "bank_physio_intro",
@@ -489,21 +489,21 @@ window.APP_CONFIG = {
       id: "bank_biochem_carbs",
       category: "subject_bank",
       title: "بنك الكيمياء الحيوية - الكربوهيدرات (Carbohydrate Chemistry)",
-      subtitle: "Carbohydrate Chemistry & Structural Formulas",
+      subtitle: "Carbohydrate Chemistry & Structural Formulas (30 MCQs)",
       year: "بنك المادة",
-      badge: "شامل الصيغ الكيميائية 🧪",
-      durationMinutes: 25,
-      description: "24 سؤال على السكريات الثنائية، الـ Epimers، الـ Isomers، والتعرف على الصيغ البنائية وحلقات الجلوكوز."
+      badge: "30 سؤال + الصيغ 🧪",
+      durationMinutes: 30,
+      description: "30 سؤال شامل على الجلوكوز، الأميلوز، السيلولوز، السكريات الثنائية، الـ Epimers، الـ Isomers، والصيغ البنائية."
     },
     {
       id: "bank_biochem_lipids",
       category: "subject_bank",
       title: "بنك الكيمياء الحيوية - الليبيدات (Lipid Chemistry)",
-      subtitle: "Lipid Chemistry MCQs & True/False",
+      subtitle: "Lipid Chemistry MCQs & True/False (21 Questions)",
       year: "بنك المادة",
-      badge: "MCQ + صح وغلط",
+      badge: "21 سؤال (MCQ + T/F)",
       durationMinutes: 20,
-      description: "21 سؤال على الأحماض الدهنية، أوميجا 3 و 6، تقسيم الليبيدات، والصيغ البنائية للأحماض الهيدروكسيلية."
+      description: "21 سؤال على الأحماض الدهنية القصيرة والطويلة، أوميجا 3 و 6، تقسيم الليبيدات، والصيغ البنائية للأحماض الهيدروكسيلية."
     },
     {
       id: "bank_biochem_amino",
@@ -539,11 +539,21 @@ window.APP_CONFIG = {
       id: "bank_pharma",
       category: "subject_bank",
       title: "بنك أسئلة الفارماكولوجي الشامل (Pharmacology Bank)",
-      subtitle: "General Pharmacology 52 MCQs",
+      subtitle: "General Pharmacology MCQs & Study Guide",
       year: "بنك المادة",
-      badge: "52 سؤال شامل 💊",
-      durationMinutes: 50,
-      description: "بنك شامل يغطي طرق إعطاء الدواء، الحرائك الدوائية، الديناميكا الدوائية، التفاعلات الضارة، والـ Five Rights."
+      badge: "68 سؤال شامل 💊",
+      durationMinutes: 55,
+      description: "بنك شامل يغطي طرق إعطاء الدواء، الحرائك الدوائية (ADME)، الديناميكا الدوائية، التفاعلات الضارة، والـ Five Rights."
+    },
+    {
+      id: "bank_pathology",
+      category: "subject_bank",
+      title: "بنك أسئلة الباثولوجي (Pathology Department Questionnaire)",
+      subtitle: "Department of Pathology - Introduction Practice MCQs",
+      year: "بنك المادة",
+      badge: "10 أسئلة أساسية 🩺",
+      durationMinutes: 15,
+      description: "أسئلة قسم الباثولوجي الأساسية على مقدمة علم الأمراض (Biopsy, Autopsy, Etiology, Pathogenesis, Morphology, Complications)."
     }
   ],
 

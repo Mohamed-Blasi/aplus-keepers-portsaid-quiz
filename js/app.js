@@ -103,6 +103,22 @@
     }
   }
 
+  // Deduplicate questions by normalized stem and options to ensure no duplicate questions appear in composite sessions
+  function deduplicateQuestions(list) {
+    const seen = new Set();
+    const result = [];
+    for (const q of list) {
+      const normStem = (q.q || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+      const normFirstOpt = (q.options && q.options[0] ? q.options[0] : "").toLowerCase().replace(/[^a-z0-9]/g, "");
+      const key = normStem + "::" + normFirstOpt;
+      if (!seen.has(key)) {
+        seen.add(key);
+        result.push(q);
+      }
+    }
+    return result;
+  }
+
   // Navigation
   window.switchTab = function (tabName) {
     stopQuizTimer();
@@ -293,11 +309,14 @@
         // Special sub-buttons for Biochemistry
         let extraSubBanks = "";
         if (subj.id === "biochemistry") {
+          const carbsCount = allQs.filter(q => q.source === "bank_biochem_carbs").length;
+          const lipidsCount = allQs.filter(q => q.source === "bank_biochem_lipids").length;
+          const aminoCount = allQs.filter(q => q.source === "bank_biochem_amino").length;
           extraSubBanks = `
             <div style="display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;">
-              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_carbs', 'study')">🍬 Carbs (24)</button>
-              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_lipids', 'study')">🥑 Lipids (20)</button>
-              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_amino', 'study')">🧬 Amino Acids (19)</button>
+              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_carbs', 'study')">🍬 Carbs (${carbsCount})</button>
+              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_lipids', 'study')">🥑 Lipids (${lipidsCount})</button>
+              <button class="btn btn-sm btn-secondary" style="flex:1; font-size:0.78rem;" onclick="startSourceQuiz('bank_biochem_amino', 'study')">🧬 Amino Acids (${aminoCount})</button>
             </div>
           `;
         }
@@ -592,7 +611,7 @@
         <div class="filter-pills">
           <button class="filter-pill ${state.examFilter === "all" ? "active" : ""}" onclick="setExamFilter('all')">الكل (${window.APP_CONFIG.sources.length})</button>
           <button class="filter-pill ${state.examFilter === "past_exam" ? "active" : ""}" onclick="setExamFilter('past_exam')">امتحانات السنين السابقة (7)</button>
-          <button class="filter-pill ${state.examFilter === "subject_bank" ? "active" : ""}" onclick="setExamFilter('subject_bank')">بنوك المحاضرات والمراجعات (9)</button>
+          <button class="filter-pill ${state.examFilter === "subject_bank" ? "active" : ""}" onclick="setExamFilter('subject_bank')">بنوك المحاضرات والمراجعات (${window.APP_CONFIG.sources.filter(s => s.category === 'subject_bank').length})</button>
         </div>
       </div>
       <div class="cards-grid">
@@ -733,6 +752,7 @@
           <button class="filter-pill ${state.essaySourceFilter === "essay_exam_oct_2024" ? "active" : ""}" onclick="setEssayFilter('source', 'essay_exam_oct_2024')">🔥 امتحان مقالي أكتوبر 2024 (4)</button>
           <button class="filter-pill ${state.essaySourceFilter === "essay_exam_ahlia_2023" ? "active" : ""}" onclick="setEssayFilter('source', 'essay_exam_ahlia_2023')">⭐ مقالي أهلية 2023 (4)</button>
           <button class="filter-pill ${state.essaySourceFilter === "essay_bank_main" ? "active" : ""}" onclick="setEssayFilter('source', 'essay_bank_main')">📌 ملف المقالي الشامل (20)</button>
+          <button class="filter-pill ${state.essaySourceFilter === "essay_bank_q2" ? "active" : ""}" onclick="setEssayFilter('source', 'essay_bank_q2')">📝 بنك SEQs الجديد (19)</button>
         </div>
       </div>
 
@@ -830,7 +850,8 @@
     const mode = document.getElementById("customModeSelect").value || "study";
     const timerOn = document.getElementById("customTimerSelect").value === "on";
 
-    const pool = getAllQuestions().filter((q) => checked.includes(q.subject));
+    const rawPool = getAllQuestions().filter((q) => checked.includes(q.subject));
+    const pool = deduplicateQuestions(rawPool);
     const shuffled = pool.slice().sort(() => Math.random() - 0.5).slice(0, count);
 
     startQuizSession({
@@ -1120,6 +1141,8 @@
     } else if (filterType === "bank_only") {
       pool = pool.filter((q) => q.source.startsWith("bank_"));
       subtitle = "بنك محاضرات المادة فقط";
+    } else {
+      pool = deduplicateQuestions(pool);
     }
 
     startQuizSession({

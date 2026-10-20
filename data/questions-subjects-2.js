@@ -1854,5 +1854,261 @@ window.QUESTIONS_SUBJECTS_2 = [
     ],
     answer: 2,
     explanation: "المضاعفات (Complications) هي التغيرات المرضية الإضافية أو العواقب السيئة التي قد تحدث أثناء أو بعد مسار المرض."
+  },
+
+  // ==========================================
+  // PATHOLOGY DEPARTMENT QUESTIONNAIRE (Q2)
+  // ==========================================
+  {
+    id: "patho_b1_1",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following investigations is used in pathology (tissue examination from a living patient)?",
+    options: ["X-rays", "Biopsy", "Autopsy", "Serum tests", "Bone scan"],
+    answer: 1,
+    explanation: "الخزعة (Biopsy) هي أخذ عينة نسيجية من كائن حي لفحصها ميكروسكوبياً وتشخيص المرض في علم الباثولوجي."
+  },
+  {
+    id: "patho_b1_2",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following terms means the mechanism by which the causative agent produces the disease?",
+    options: [
+      "Etiology of the disease",
+      "Pathogenesis of the disease",
+      "Morphology of the disease",
+      "Complications of the disease",
+      "Prognosis of the disease"
+    ],
+    answer: 1,
+    explanation: "الـ Pathogenesis يمثل آلية وتطور المرض والخطوات التي يُحدث بها المسبب التغيرات المرضية."
+  },
+  {
+    id: "patho_b1_3",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following definitions describes the complications of disease?",
+    options: [
+      "Additional pathological changes during course of the disease",
+      "Direct causes of the disease",
+      "Helping factors for disease occurrence",
+      "Morphological changes detected by gross examination",
+      "Structural changes detected by microscopic examination"
+    ],
+    answer: 0,
+    explanation: "المضاعفات (Complications) تُعرف بالتغيرات المرضية الإضافية غير المرغوبة التي تحدث أثناء مسار المرض."
+  },
+  {
+    id: "patho_b1_4",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following items is studied in pathology science?",
+    options: [
+      "Physiological functions of the body",
+      "Hormones",
+      "Diseases (causes, mechanisms, structural changes)",
+      "Morphology of normal tissues",
+      "Drugs"
+    ],
+    answer: 2,
+    explanation: "علم الأمراض (Pathology) هو العلم الذي يدرس الأمراض (Diseases) من حيث أسبابها، آلياتها، والتغيرات التركيبية والوظيفية الناتجة عنها."
+  },
+  {
+    id: "patho_b1_5",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following investigations is considered the way of examination in postmortem conditions?",
+    options: ["Autopsy", "Cytology", "Biopsy", "Immunostains", "Blood tests"],
+    answer: 0,
+    explanation: "الصفة التشريحية (Autopsy / Necropsy) هي الفحص الطبي للجثة بعد الوفاة لمعرفة سبب الوفاة وطبيعة المرض."
+  },
+  {
+    id: "patho_b1_6",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "What does the predisposing (risk) factor of the disease mean?",
+    options: [
+      "The direct cause of the disease",
+      "The cause of the disease complication",
+      "Helping factor facilitates occurrence of the disease",
+      "The natural course of the disease",
+      "The morphological changes detected by gross examination"
+    ],
+    answer: 2,
+    explanation: "العامل المهيئ (Predisposing / Risk factor) هو عامل مساعد يزيد من احتمالية وفرصة حدوث المرض، دون أن يكون هو المسبب المباشر."
+  },
+  {
+    id: "patho_b1_7",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following diseases means the disease which is inherited from parents?",
+    options: [
+      "Genetic Disease",
+      "Circulatory disorders",
+      "Degenerative diseases",
+      "Neoplastic diseases",
+      "Inflammatory diseases"
+    ],
+    answer: 0,
+    explanation: "المرض الوراثي (Genetic / Hereditary Disease) هو المرض الذي ينتقل وراثياً من الآباء إلى الأبناء عبر الجينات والكروموسومات."
+  },
+  {
+    id: "patho_b1_8",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following is considered bad sequelae (adverse outcome) of the disease?",
+    options: [
+      "Etiology of the disease",
+      "Pathogenesis of the disease",
+      "Complications of the disease",
+      "Morphology of the disease",
+      "Incubation period"
+    ],
+    answer: 2,
+    explanation: "المضاعفات والعواقب السيئة للمرض تسمى (Complications / Bad sequelae)."
+  },
+  {
+    id: "patho_b1_9",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following causes is considered in the occurrence of disease during embryonic development?",
+    options: [
+      "Genetic factors (and developmental anomalies)",
+      "Circulatory disturbances",
+      "Degenerative causes",
+      "Carcinogens",
+      "Secondary hypertension"
+    ],
+    answer: 0,
+    explanation: "العوامل الوراثية والجينات والتشوهات الجنينية (Genetic & Developmental factors) هي المسؤولة عن أمراض النمو والتطور الجنيني."
+  },
+  {
+    id: "patho_b1_10",
+    source: "bank_pathology",
+    subject: "pathology",
+    type: "mcq",
+    q: "Which of the following is best to describe the structural changes of cells and tissues as a result of the disease?",
+    options: [
+      "Morphology of the disease (Gross & Microscopic)",
+      "Complications of the disease",
+      "Etiology of the disease",
+      "Predisposing factor of the disease",
+      "Prognosis of the disease"
+    ],
+    answer: 0,
+    explanation: "علم التشكل (Morphology) يشمل التغيرات العيانية بالمجردة (Gross) والتغيرات المجهرية (Microscopic) التي تطرأ على الخلايا والأنسجة نتيجة المرض."
+  },
+
+  // ==========================================
+  // ADDITIONAL PHARMACOLOGY MCQs & T/F (Q2 Study Guide)
+  // ==========================================
+  {
+    id: "pha_guide_1",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "Which sequence correctly represents the four primary phases of pharmacokinetics (ADME)?",
+    options: [
+      "Absorption, Distribution, Metabolism, Excretion",
+      "Action, Dose, Medicine, Effect",
+      "Absorption, Drug action, Medication, Elimination",
+      "Administration, Distribution, Movement, Effect"
+    ],
+    answer: 0,
+    explanation: "المراحل الأربعة لحرائك الدواء (ADME) هي: الامتصاص (Absorption)، التوزيع (Distribution)، الأيض (Metabolism)، والإخراج (Excretion)."
+  },
+  {
+    id: "pha_guide_2",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "An oral drug may be metabolized by the liver before reaching systemic circulation. This phenomenon is called:",
+    options: ["Tolerance", "First-pass effect", "Dependence", "Bioequivalence"],
+    answer: 1,
+    explanation: "تأثير المرور الكبدي الأول (First-pass effect) هو استقلاب جزء من الدواء المعطى بالفم في الكبد قبل وصوله للدورة الدموية الجهازية."
+  },
+  {
+    id: "pha_guide_3",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "Which of the following is classified as an enteral route of administration?",
+    options: ["Intramuscular", "Intradermal", "Sublingual", "Intrathecal"],
+    answer: 2,
+    explanation: "الطرق المعوية (Enteral routes) المرتبطة بالجهاز الهضمي تشمل: عن طريق الفم (Oral)، تحت اللسان (Sublingual)، الخد (Buccal)، والمستقيم (Rectal)."
+  },
+  {
+    id: "pha_guide_4",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "The transport of a drug from the bloodstream to its site of action in tissues and organs is termed:",
+    options: ["Absorption", "Distribution", "Excretion", "Metabolism"],
+    answer: 1,
+    explanation: "التوزيع (Distribution) هو انتقال جزيئات الدواء من مجرى الدم إلى موضع تأثيره في خلايا وأنسجة الجسم."
+  },
+  {
+    id: "pha_guide_5",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "A low therapeutic index (narrow therapeutic margin) indicates that:",
+    options: [
+      "The drug has no side effects",
+      "There is a greater risk of toxicity requiring careful clinical monitoring",
+      "The drug has faster absorption in all patients",
+      "There is no need for serum drug level monitoring"
+    ],
+    answer: 1,
+    explanation: "المؤشر العلاجي المنخفض (Low therapeutic index) يعني أن الفرق بين الجرعة العلاجية والجرعة السامة ضئيل جداً مما يتطلب مراقبة دقيقة لمستوى الدواء في الدم."
+  },
+  {
+    id: "pha_guide_6",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "mcq",
+    q: "Which of the following is NOT one of the traditional Five Rights of Medication Administration?",
+    options: ["Right patient", "Right route", "Right diagnosis", "Right dose"],
+    answer: 2,
+    explanation: "حقوق إعطاء الدواء الخمسة (The Five Rights) هي: Right drug, Right dose, Right time, Right route, Right patient. بينما التشخيص (Diagnosis) ليس من هذه القائمة الخمسة."
+  },
+  {
+    id: "pha_guide_tf1",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "tf",
+    q: "True or False: Pharmacodynamics studies what the body does to the drug.",
+    options: ["True", "False"],
+    answer: 1,
+    explanation: "خطأ (False): ما يفعله الجسم بالدواء هو Pharmacokinetics (حرائك الدواء - ADME)، بينما ما يفعله الدواء بالجسم هو Pharmacodynamics."
+  },
+  {
+    id: "pha_guide_tf2",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "tf",
+    q: "True or False: Peak concentration is the time when a drug first begins to elicit a therapeutic effect.",
+    options: ["True", "False"],
+    answer: 1,
+    explanation: "خطأ (False): وقت بدء مفعول الدواء يسمى Onset of action، بينما الـ Peak هو الوقت الذي يصل فيه الدواء لأعلى تركيز وأقصى استجابة علاجية."
+  },
+  {
+    id: "pha_guide_tf3",
+    source: "bank_pharma",
+    subject: "pharmacology",
+    type: "tf",
+    q: "True or False: Carcinogenic drug effect means causing changes in genetic composition.",
+    options: ["True", "False"],
+    answer: 1,
+    explanation: "خطأ (False): التغيير في التركيب الجيني والـ DNA يسمى Mutagenic، بينما إحداث الأورام والسرطان يسمى Carcinogenic."
   }
 ];
