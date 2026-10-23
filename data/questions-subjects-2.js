@@ -2110,5 +2110,1559 @@ window.QUESTIONS_SUBJECTS_2 = [
     options: ["True", "False"],
     answer: 1,
     explanation: "خطأ (False): التغيير في التركيب الجيني والـ DNA يسمى Mutagenic، بينما إحداث الأورام والسرطان يسمى Carcinogenic."
-  }
+  },
+  // ==========================================
+  // 6. HISTOLOGY BANK - GOVERNMENTAL FACULTY (حكومية)
+  // Microtechniques, Staining, Karyotyping, Clinical Scenarios, OSPE
+  // ==========================================
+  {
+    "id": "gov_histo_mcq_1",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which of the following is the most common method used in microtechniques?",
+    "options": [
+      "Freezing technique",
+      "Celloidin technique",
+      "Paraffin technique",
+      "Cryostat technique",
+      "Immunohistochemical technique"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (C) Paraffin technique."
+  },
+  {
+    "id": "gov_histo_mcq_2",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which fixative is most commonly used in the paraffin technique?",
+    "options": [
+      "Xylol",
+      "Formol saline (4% formaldehyde)",
+      "Bouin’s solution",
+      "Suza solution",
+      "Liquid nitrogen"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) Formol saline (4% formaldehyde)."
+  },
+  {
+    "id": "gov_histo_mcq_3",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the purpose of dehydration in the paraffin technique?",
+    "options": [
+      "To harden the tissue for cutting",
+      "To replace water in the tissue with paraffin wax",
+      "To make the tissue translucent",
+      "To prevent bacterial action",
+      "To increase stain affinity"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) To replace water in the tissue with paraffin wax."
+  },
+  {
+    "id": "gov_histo_mcq_4",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which substance is used in the clearing step of the paraffin technique?",
+    "options": [
+      "Alcohol",
+      "Xylol",
+      "Celloidin",
+      "Hematoxylin",
+      "Canada balsam"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) Xylol."
+  },
+  {
+    "id": "gov_histo_mcq_5",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "At what temperature is the tissue infiltrated with soft paraffin in the paraffin technique?",
+    "options": [
+      "55-60°C",
+      "50°C",
+      "70°C",
+      "40°C",
+      "100°C"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) 50°C."
+  },
+  {
+    "id": "gov_histo_mcq_6",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the typical thickness of sections cut using a microtome in the paraffin technique?",
+    "options": [
+      "1-2 μm",
+      "4-8 μm",
+      "10-15 μm",
+      "20-25 μm",
+      "30-40 μm"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) 4-8 μm."
+  },
+  {
+    "id": "gov_histo_mcq_7",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which stain is most commonly used in the paraffin technique?",
+    "options": [
+      "Celloidin stain",
+      "Hematoxylin and eosin stain",
+      "Histochemical stain",
+      "Immunohistochemical stain",
+      "Xylol stain"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) Hematoxylin and eosin stain."
+  },
+  {
+    "id": "gov_histo_mcq_8",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is a major disadvantage of the paraffin technique?",
+    "options": [
+      "It takes a long time to complete",
+      "It cannot produce serial sections",
+      "Fat and carbohydrates cannot be demonstrated",
+      "It requires liquid nitrogen",
+      "It uses airtight containers"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (C) Fat and carbohydrates cannot be demonstrated."
+  },
+  {
+    "id": "gov_histo_mcq_9",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What distinguishes the celloidin technique from the paraffin technique?",
+    "options": [
+      "It uses heat during embedding",
+      "It uses celloidin instead of paraffin for embedding",
+      "It is faster than the paraffin technique",
+      "It produces thinner sections",
+      "It allows for serial sections"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) It uses celloidin instead of paraffin for embedding."
+  },
+  {
+    "id": "gov_histo_mcq_10",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Why is the celloidin technique suitable for large specimens like the eyeball?",
+    "options": [
+      "It uses heat to preserve tissues 8",
+      "It produces thin, easily stained sections",
+      "No heat is used, preserving tissue structure",
+      "It allows for rapid diagnosis",
+      "It uses liquid nitrogen for cutting"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (C) No heat is used, preserving tissue structure."
+  },
+  {
+    "id": "gov_histo_mcq_11",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is a key disadvantage of the celloidin technique?",
+    "options": [
+      "It is too rapid for detailed studies",
+      "It takes about one month to complete",
+      "It destroys cellular enzymes",
+      "It requires special staining techniques",
+      "It cannot be used for soft tissues"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) It takes about one month to complete."
+  },
+  {
+    "id": "gov_histo_mcq_12",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the primary advantage of the freezing technique?",
+    "options": [
+      "It produces serial sections",
+      "It is rapid, used for quick diagnosis during operations",
+      "It is ideal for staining with hematoxylin",
+      "It preserves fats and carbohydrates",
+      "It uses paraffin for embedding"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) It is rapid, used for quick diagnosis during operations."
+  },
+  {
+    "id": "gov_histo_mcq_13",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which dye in the hematoxylin and eosin (H&E) stain colors acidic cellular structures like the nucleus?",
+    "options": [
+      "Eosin",
+      "Hematoxylin",
+      "Xylol",
+      "Canada balsam",
+      "Alcohol"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) Hematoxylin."
+  },
+  {
+    "id": "gov_histo_mcq_14",
+    "source": "bank_gov_histo_lec1",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the final step in the H&E staining process?",
+    "options": [
+      "Hydrate slides in alcohol",
+      "Cover the slide with a cover-glass and examine",
+      "Transfer to hematoxylin stain",
+      "Wash in running tap water",
+      "Dehydrate in absolute alcohol"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الأولى - Microtechniques). ركز على الفرق بين Paraffin و Celloidin و Freezing وخطوات التحضير (Fixation, Dehydration, Clearing, Impregnation, Embedding). الإجابة الصحيحة هي: (B) Cover the slide with a cover-glass and examine."
+  },
+  {
+    "id": "gov_histo_mcq_15",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which staining technique is specifically required to demonstrate reticular fibers under light microscopy?",
+    "options": [
+      "Hematoxylin and Eosin (H&E)",
+      "Periodic Acid Schiff (PAS)",
+      "Orcein stain",
+      "Toluidine Blue",
+      "Silver Impregnation"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (E) Silver Impregnation."
+  },
+  {
+    "id": "gov_histo_mcq_16",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What critical methodological requirement applies to most histochemical techniques?",
+    "options": [
+      "Must be performed on paraffin-embedded tissues",
+      "Require prior staining with H&E",
+      "Must use frozen tissue sections",
+      "Depend on immunohistochemical labeling",
+      "Utilize supravital staining principles"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Must use frozen tissue sections."
+  },
+  {
+    "id": "gov_histo_mcq_17",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which cellular component is specifically demonstrated by the Feulgen reaction?",
+    "options": [
+      "Total cellular carbohydrates",
+      "Neutral lipids",
+      "Mitochondrial enzymes",
+      "DNA",
+      "Elastic fibers"
+    ],
+    "answer": 3,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (D) DNA."
+  },
+  {
+    "id": "gov_histo_mcq_18",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which stain would best differentiate collagen fibers in green color?",
+    "options": [
+      "Mallory's trichrome",
+      "Van Gieson's stain",
+      "Masson's trichrome",
+      "Orcein stain",
+      "Sudan III"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Masson's trichrome."
+  },
+  {
+    "id": "gov_histo_mcq_19",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What phenomenon describes mast cell granules staining violet with Toluidine Blue?",
+    "options": [
+      "Orthochromasia",
+      "Metachromasia",
+      "Autofluorescence",
+      "Immunoreactivity",
+      "Precipitation"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (B) Metachromasia."
+  },
+  {
+    "id": "gov_histo_mcq_20",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which technique is essential for tracking protein synthesis dynamics in tissues?",
+    "options": [
+      "Cell fractionation",
+      "Autoradiography",
+      "Supravital staining",
+      "Hybridization techniques",
+      "Vital staining"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (B) Autoradiography."
+  },
+  {
+    "id": "gov_histo_mcq_21",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the absolute requirement for successful cell and tissue culture?",
+    "options": [
+      "Use of radioactive tracers",
+      "Presence of growth factors",
+      "Maintenance of sterility",
+      "Fluorescent labeling",
+      "Enzyme histochemistry"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Maintenance of sterility."
+  },
+  {
+    "id": "gov_histo_mcq_22",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which staining method would identify lipids as orange droplets?",
+    "options": [
+      "Osmium tetroxide",
+      "Silver impregnation",
+      "Sudan III",
+      "PAS reaction",
+      "Toluidine Blue"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Sudan III."
+  },
+  {
+    "id": "gov_histo_mcq_23",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What distinguishes supravital from vital staining?",
+    "options": [
+      "Use of toxic stains",
+      "Staining living cells outside the body",
+      "Requirement for frozen sections",
+      "Demonstration of enzymes",
+      "Use of radioactive isotopes"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (B) Staining living cells outside the body."
+  },
+  {
+    "id": "gov_histo_mcq_24",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which cellular structure is specifically stained black by osmium tetroxide?",
+    "options": [
+      "Collagen fibers",
+      "Reticular fibers",
+      "Lipids",
+      "Carbohydrates 19",
+      "Nucleic acids"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Lipids."
+  },
+  {
+    "id": "gov_histo_mcq_25",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What is the primary application of hybridization techniques?",
+    "options": [
+      "Protein localization",
+      "Enzyme demonstration",
+      "DNA and RNA study",
+      "Lipid identification",
+      "Carbohydrate detection"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) DNA and RNA study."
+  },
+  {
+    "id": "gov_histo_mcq_26",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which element is crucial for isolating organelles during cell fractionation?",
+    "options": [
+      "Enzymatic digestion",
+      "Special centrifugal force",
+      "Chemical fixation",
+      "Freeze-drying",
+      "Microwave irradiation"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (B) Special centrifugal force."
+  },
+  {
+    "id": "gov_histo_mcq_27",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "What color reaction indicates positive PAS staining for carbohydrates?",
+    "options": [
+      "Blue",
+      "Green",
+      "Orange",
+      "Deep magenta red",
+      "Brown"
+    ],
+    "answer": 3,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (D) Deep magenta red."
+  },
+  {
+    "id": "gov_histo_mcq_28",
+    "source": "bank_gov_histo_lec2",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which technique allows direct observation of living cell behavior under controlled conditions?",
+    "options": [
+      "Autoradiography",
+      "Immunohistochemistry",
+      "Cell and tissue culture",
+      "Histochemical staining",
+      "Hybridization"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثانية - Advanced Techniques & Staining). ركز على الصبغات الخاصة: PAS للجليكوجين، Sudan للدهون، Silver للألياف الشبكية، و Feulgen للـ DNA. الإجابة الصحيحة هي: (C) Cell and tissue culture."
+  },
+  {
+    "id": "gov_histo_mcq_29",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A karyotype is best defined as:",
+    "options": [
+      "A photograph of the entire set of chromosomes from a single cell, arranged in pairs.",
+      "A graphical representation of gene expression levels in a cell.",
+      "A detailed map of all the genes on a single chromosome.",
+      "A stained section of tissue showing cellular structure.",
+      "A list of all the proteins produced by a cell."
+    ],
+    "answer": 0,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (A) A photograph of the entire set of chromosomes from a single cell, arranged in pairs.."
+  },
+  {
+    "id": "gov_histo_mcq_30",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "For a standard human karyotype, cells are typically arrested during which phase of the cell cycle to visualize chromosomes?",
+    "options": [
+      "Prophase",
+      "Anaphase",
+      "Telophase",
+      "Interphase",
+      "Metaphase"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (E) Metaphase."
+  },
+  {
+    "id": "gov_histo_mcq_31",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which of the following banding techniques involves the use of trypsin digestion followed by Giemsa stain and is the most common method for routine karyotyping?",
+    "options": [
+      "Q-banding",
+      "R-banding",
+      "C-banding",
+      "G-banding",
+      "FISH"
+    ],
+    "answer": 3,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (D) G-banding."
+  },
+  {
+    "id": "gov_histo_mcq_32",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In G-banding, the dark-staining bands are primarily composed of which type of DNA sequences?",
+    "options": [
+      "GC-rich, gene-poor regions",
+      "GC-rich, gene-rich regions",
+      "AT-rich, gene-poor regions",
+      "AT-rich, gene-rich regions",
+      "Telomeric repeat sequences"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (C) AT-rich, gene-poor regions."
+  },
+  {
+    "id": "gov_histo_mcq_33",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "The banding technique that produces a pattern which is essentially the reverse of the G-banding pattern is known as:",
+    "options": [
+      "Q-banding",
+      "C-banding",
+      "R-banding",
+      "FISH",
+      "Spectral karyotyping"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (C) R-banding."
+  },
+  {
+    "id": "gov_histo_mcq_34",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Fluorescence In Situ Hybridization (FISH) is particularly valuable in cytogenetics for its ability to:",
+    "options": [
+      "Determine the overall chromosome number from a blood sample.",
+      "Detect specific DNA sequences or chromosomal regions with high precision.",
+      "Provide a general overview of chromosome banding patterns.",
+      "Stain heterochromatic regions around the centromere.",
+      "Identify the chemical composition of the chromosome matrix."
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) Detect specific DNA sequences or chromosomal regions with high precision.."
+  },
+  {
+    "id": "gov_histo_mcq_35",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In chromosome nomenclature, the designation 7q31.2 refers to a location on the:",
+    "options": [
+      "Short arm of chromosome 7, region 3, band 1, sub-band 2",
+      "Long arm of chromosome 7, region 3, band 1, sub-band 2",
+      "Short arm of chromosome 7, band 31, sub-band 2",
+      "Long arm of chromosome 7, band 31, sub-band 2",
+      "Centromeric region of chromosome 7"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) Long arm of chromosome 7, region 3, band 1, sub-band 2."
+  },
+  {
+    "id": "gov_histo_mcq_36",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which banding technique is specifically useful for staining constitutive heterochromatin, such as that found in centromeres?",
+    "options": [
+      "G-banding",
+      "Q-banding 29",
+      "R-banding",
+      "C-banding",
+      "FISH"
+    ],
+    "answer": 3,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (D) C-banding."
+  },
+  {
+    "id": "gov_histo_mcq_37",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A primary clinical indication for performing a karyotype is:",
+    "options": [
+      "To measure the concentration of serum electrolytes.",
+      "To identify bacterial pathogens in a blood culture.",
+      "To investigate the cause of recurrent spontaneous abortions.",
+      "To assess liver enzyme function.",
+      "To determine blood group antigens."
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (C) To investigate the cause of recurrent spontaneous abortions.."
+  },
+  {
+    "id": "gov_histo_mcq_38",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "The term \"idiogram\" in cytogenetics refers to a:",
+    "options": [
+      "The actual photograph of chromosomes from a metaphase spread.",
+      "A standardized diagrammatic representation of chromosome banding patterns.",
+      "The tool used to capture microscopic images.",
+      "The culture medium used for growing cells.",
+      "The computer software for analyzing gene sequences."
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) A standardized diagrammatic representation of chromosome banding patterns.."
+  },
+  {
+    "id": "gov_histo_mcq_39",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "How many chromosomes are typically found in a human gamete?",
+    "options": [
+      "22",
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) 23."
+  },
+  {
+    "id": "gov_histo_mcq_40",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which of the following techniques would be most appropriate for quickly detecting a specific microdeletion syndrome, such as DiGeorge syndrome (22q11.2 deletion)?",
+    "options": [
+      "G-banding",
+      "R-banding",
+      "C-banding",
+      "Q-banding",
+      "FISH"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (E) FISH."
+  },
+  {
+    "id": "gov_histo_mcq_41",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In the context of chromosome arms, a location described as \"proximal\" is:",
+    "options": [
+      "Near the telomere.",
+      "On the short arm (p arm).",
+      "Closer to the centromere.",
+      "On the long arm (q arm).",
+      "At the very tip of the chromosome."
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (C) Closer to the centromere.."
+  },
+  {
+    "id": "gov_histo_mcq_42",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Q-banding utilizes which fluorescent dye and requires visualization under which type of microscopy?",
+    "options": [
+      "Giemsa stain; Light microscopy",
+      "Quinacrine mustard; UV microscopy",
+      "Trypsin; Phase-contrast microscopy",
+      "Barium hydroxide; Electron microscopy",
+      "Fluorescent probes; Confocal microscopy"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) Quinacrine mustard; UV microscopy."
+  },
+  {
+    "id": "gov_histo_mcq_43",
+    "source": "bank_gov_histo_lec3",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Karyotype analysis is LEAST useful for diagnosing which of the following conditions?",
+    "options": [
+      "Down syndrome (Trisomy 21)",
+      "Cystic Fibrosis (a single-gene disorder)",
+      "Klinefelter syndrome (47,XXY)",
+      "Turner syndrome (45,X)",
+      "A chromosomal translocation"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الكلية الحكومية (المحاضرة الثالثة - Chromosomes & Karyotyping). ركز على شروط الكاريوتايبينج، دور الـ Colchicine في إيقاف الخلايا عند Metaphase، ومحلول الـ Hypotonic لنفخ الخلايا. الإجابة الصحيحة هي: (B) Cystic Fibrosis (a single-gene disorder)."
+  },
+  {
+    "id": "gov_histo_mcq_44",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A pathology lab receives a fresh tissue sample from a suspected tumor during surgery. The surgeon requests a rapid diagnosis. Which microtechnique is most appropriate for this situation, and what is its primary disadvantage?",
+    "options": [
+      "Paraffin technique; it dissolves lipids and carbohydrates.",
+      "Celloidin technique; it produces very thick sections.",
+      "Freezing technique; it often yields thick, sometimes fragmented sections.",
+      "Autoradiography; it requires weeks for exposure.",
+      "Immunohistochemistry; it requires specific antibodies and is time-consuming."
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Freezing technique; it often yields thick, sometimes fragmented sections.."
+  },
+  {
+    "id": "gov_histo_mcq_45",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "During the preparation of a tissue sample for routine histology, the step of \"clearing\" is performed after dehydration. What is the primary purpose of using a clearing agent like xylol?",
+    "options": [
+      "To remove all water from the tissue",
+      "To stain the tissue with basic dyes",
+      "To render the tissue translucent and miscible with paraffin wax",
+      "To fix the tissue and prevent autolysis",
+      "To embed the tissue in a supportive medium"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) To render the tissue translucent and miscible with paraffin wax."
+  },
+  {
+    "id": "gov_histo_mcq_46",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A histology student is staining a section of liver tissue with H&E. The nuclei appear a purplish-blue color. This basophilic staining is due to the affinity of hematoxylin for which cellular components?",
+    "options": [
+      "Basic proteins in the cytoplasm",
+      "Acidic components like DNA and RNA",
+      "Neutral lipids",
+      "Carbohydrate-rich glycocalyx",
+      "Mitochondrial enzymes"
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) Acidic components like DNA and RNA."
+  },
+  {
+    "id": "gov_histo_mcq_47",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A researcher needs to study the detailed architecture of a large, soft tissue specimen like the entire eyeball without introducing distortion from heat. Which microtechnique is most suitable?",
+    "options": [
+      "Paraffin technique",
+      "Freezing technique",
+      "Celloidin technique",
+      "Autoradiography",
+      "Cell culture"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Celloidin technique."
+  },
+  {
+    "id": "gov_histo_mcq_48",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In the indirect method of immunohistochemistry, the increased sensitivity compared to the direct method is primarily due to which of the following?",
+    "options": [
+      "The primary antibody is labeled with a stronger fluorochrome.",
+      "Multiple secondary antibodies can bind to a single primary antibody, amplifying the signal.",
+      "The antigen is directly visualized without antibody binding.",
+      "It uses a radioactive label instead of a fluorescent one.",
+      "It requires fewer washing steps, reducing antigen loss."
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) Multiple secondary antibodies can bind to a single primary antibody, amplifying the signal.."
+  },
+  {
+    "id": "gov_histo_mcq_49",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A tissue sample is processed using a standard protocol. During which step are cellular enzymes most likely to be denatured, making the sample unsuitable for enzyme histochemistry?",
+    "options": [
+      "Fixation in formalin",
+      "Dehydration in alcohol",
+      "Clearing in xylol",
+      "Impregnation and embedding in paraffin wax using heat",
+      "Sectioning with a microtome"
+    ],
+    "answer": 3,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (D) Impregnation and embedding in paraffin wax using heat."
+  },
+  {
+    "id": "gov_histo_mcq_50",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "The Periodic Acid-Schiff (PAS) reaction is used histochemically to demonstrate the presence of which substance, staining it a deep magenta red?",
+    "options": [
+      "Proteins",
+      "Lipids",
+      "Carbohydrates",
+      "Nucleic acids",
+      "Enzymes"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Carbohydrates."
+  },
+  {
+    "id": "gov_histo_mcq_51",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In a karyotype analysis for prenatal diagnosis, cells are cultured until they reach which phase of the cell cycle, as chromosomes are most condensed and visible during this stage? 32",
+    "options": [
+      "Prophase",
+      "Prometaphase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Metaphase."
+  },
+  {
+    "id": "gov_histo_mcq_52",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A cytogeneticist uses a banding technique that involves trypsin digestion followed by Giemsa staining to reveal a pattern of dark and light bands. This technique is best for identifying gross structural abnormalities and is known as:",
+    "options": [
+      "Q-banding",
+      "R-banding",
+      "C-banding",
+      "G-banding",
+      "FISH"
+    ],
+    "answer": 3,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (D) G-banding."
+  },
+  {
+    "id": "gov_histo_mcq_53",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which banding technique is specifically useful for staining heterochromatic regions near centromeres and involves treatment with barium hydroxide before Giemsa staining?",
+    "options": [
+      "G-banding",
+      "Q-banding",
+      "C-banding",
+      "R-banding",
+      "Spectral karyotyping"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) C-banding."
+  },
+  {
+    "id": "gov_histo_mcq_54",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A patient with chronic inflammation has a tissue biopsy stained with toluidine blue. Certain cells show violet granules instead of the expected blue color. This phenomenon is known as:",
+    "options": [
+      "Orthochromasia",
+      "Metachromasia",
+      "Basophilia",
+      "Acidophilia",
+      "Fluorescence"
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) Metachromasia."
+  },
+  {
+    "id": "gov_histo_mcq_55",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In the context of chromosome nomenclature, the designation 7q31.2 refers to a location on the chromosome that is:",
+    "options": [
+      "On the short arm of chromosome 7, region 3, band 1, sub-band 2",
+      "On the long arm of chromosome 7, region 3, band 1, sub-band 2",
+      "On the long arm of chromosome 7, region 31, band 2",
+      "On the short arm of chromosome 7, region 31, band 2",
+      "Proximal to the centromere of chromosome 7"
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) On the long arm of chromosome 7, region 3, band 1, sub-band 2."
+  },
+  {
+    "id": "gov_histo_mcq_56",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Fluorescence In Situ Hybridization (FISH) is particularly valuable in clinical diagnostics for detecting which type of genetic abnormality?",
+    "options": [
+      "Point mutations",
+      "Large-scale chromosomal deletions or translocations",
+      "Single amino acid changes in proteins",
+      "Changes in gene expression levels",
+      "Mitochondrial DNA mutations"
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) Large-scale chromosomal deletions or translocations."
+  },
+  {
+    "id": "gov_histo_mcq_57",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In cell culture techniques, why is strict sterility absolutely mandatory throughout the process?",
+    "options": [
+      "To prevent the cells from differentiating",
+      "To ensure the cells adhere to the culture flask",
+      "To prevent contamination by bacteria or fungi that would overgrow and kill the cultured cells",
+      "To activate the growth factors in the medium",
+      "To maintain the correct pH of the medium"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) To prevent contamination by bacteria or fungi that would overgrow and kill the cultured cells."
+  },
+  {
+    "id": "gov_histo_mcq_58",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A pathologist wants to localize a specific low-abundance protein within a tissue section. Which technique would provide the highest specificity and allow for precise visualization?",
+    "options": [
+      "Hematoxylin and Eosin (H&E) staining",
+      "Masson's trichrome stain",
+      "Immunohistochemistry using a labeled primary antibody",
+      "Periodic Acid-Schiff (PAS) reaction",
+      "Sudan III staining for lipids"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Immunohistochemistry using a labeled primary antibody."
+  },
+  {
+    "id": "gov_histo_mcq_59",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "During the paraffin technique, the step of \"dehydration\" involves passing the tissue through ascending grades of alcohol. What is the critical reason for doing this gradually? 33",
+    "options": [
+      "To enhance the staining affinity of the tissue",
+      "To completely dissolve the paraffin wax",
+      "To minimize shrinkage and distortion of cellular structure",
+      "To activate enzymes for histochemistry",
+      "To make the tissue translucent"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) To minimize shrinkage and distortion of cellular structure."
+  },
+  {
+    "id": "gov_histo_mcq_60",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which of the following techniques involves growing living cells outside the body in a controlled nutrient medium, allowing for direct observation of cell behavior?",
+    "options": [
+      "Autoradiography",
+      "Cell fractionation",
+      "Cell or tissue culture",
+      "Hybridization",
+      "Karyotyping"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Cell or tissue culture."
+  },
+  {
+    "id": "gov_histo_mcq_61",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "In a G-banded karyotype, dark bands typically correspond to regions of the chromosome that are:",
+    "options": [
+      "Gene-rich and early-replicating",
+      "AT-rich and late-replicating",
+      "GC-rich and early-replicating",
+      "Centromeric heterochromatin",
+      "Telomeric regions"
+    ],
+    "answer": 1,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (B) AT-rich and late-replicating."
+  },
+  {
+    "id": "gov_histo_mcq_62",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A research project aims to track the synthesis and migration of a specific protein over time within neurons. Which technique would be most appropriate for this dynamic study?",
+    "options": [
+      "Standard H&E staining of paraffin- embedded tissue",
+      "Freezing technique and enzyme histochemistry",
+      "Autoradiography using a radiolabeled amino acid",
+      "C-banding on metaphase chromosomes",
+      "Supravital staining of blood cells"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Autoradiography using a radiolabeled amino acid."
+  },
+  {
+    "id": "gov_histo_mcq_63",
+    "source": "bank_gov_histo_scenarios",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A Van Gieson stain is applied to a section of skin. The collagen fibers in the dermis will stain which color?",
+    "options": [
+      "Blue",
+      "Green",
+      "Red",
+      "Brown",
+      "Black"
+    ],
+    "answer": 2,
+    "explanation": "سؤال تطبيقي وسيناريو إكلينيكي من أسئلة وتجميعات الكلية الحكومية لربط الهستولوجي بالتشخيص الطبي وتحضير العينات. الإجابة الصحيحة هي: (C) Red."
+  },
+  {
+    "id": "gov_histo_mcq_64",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A tissue sample is stained and shows blue nuclei and pinkish-red cytoplasmic regions. Which stain was most likely used?",
+    "options": [
+      "Weigert's elastic stain",
+      "Masson-trichrome",
+      "Wright stain",
+      "Silver stain",
+      "Hematoxylin and eosin"
+    ],
+    "answer": 4,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (E) Hematoxylin and eosin."
+  },
+  {
+    "id": "gov_histo_mcq_65",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "You need to identify elastic fibers in a blood vessel wall. Which stain would specifically stain these fibers blue?",
+    "options": [
+      "Periodic acid-Schiff (PAS)",
+      "Weigert's elastic stain",
+      "Masson-trichrome",
+      "Hematoxylin and eosin",
+      "Giemsa stain"
+    ],
+    "answer": 1,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (B) Weigert's elastic stain."
+  },
+  {
+    "id": "gov_histo_mcq_66",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A connective tissue section shows dark blue nuclei, light blue collagen, and pink to red cytoplasm. Which staining method does this pattern characterize?",
+    "options": [
+      "Silver stain",
+      "Hematoxylin and eosin",
+      "Weigert's elastic stain",
+      "Masson-trichrome",
+      "Wright stain"
+    ],
+    "answer": 3,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (D) Masson-trichrome."
+  },
+  {
+    "id": "gov_histo_mcq_67",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "To visualize the network of reticular fibers in a lymph node biopsy, which stain would best demonstrate these fibers in black?",
+    "options": [
+      "Weigert's elastic stain",
+      "Hematoxylin and eosin",
+      "Masson-trichrome",
+      "Silver stain",
+      "PAS reaction"
+    ],
+    "answer": 3,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (D) Silver stain."
+  },
+  {
+    "id": "gov_histo_mcq_68",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A blood smear is examined, revealing pink erythrocytes, purple white blood cell nuclei, and blue lymphocyte cytoplasm. Which staining method was applied? 35",
+    "options": [
+      "Hematoxylin and eosin",
+      "Masson-trichrome",
+      "Silver stain D Giemsa stain",
+      "Periodic acid-Schiff (PAS)"
+    ],
+    "answer": 3,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (D) Periodic acid-Schiff (PAS)."
+  },
+  {
+    "id": "gov_histo_mcq_69",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "To test for a suspected glycogen storage disease in a liver biopsy, which stain will color glycogen and carbohydrate-rich molecules a magenta color?",
+    "options": [
+      "Weigert's elastic stain",
+      "Hematoxylin and eosin",
+      "Masson-trichrome",
+      "Silver stain",
+      "Periodic acid-Schiff (PAS)"
+    ],
+    "answer": 4,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (E) Periodic acid-Schiff (PAS)."
+  },
+  {
+    "id": "gov_histo_mcq_70",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A technique uses fluorescent antibodies directed against primary antibodies to type IV collagen to highlight a continuous basal lamina. What is this technique called?",
+    "options": [
+      "Histochemistry",
+      "Hematoxylin and eosin staining",
+      "Periodic acid-Schiff reaction",
+      "Indirect immunocytochemistry",
+      "Masson-trichrome staining"
+    ],
+    "answer": 3,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (D) Indirect immunocytochemistry."
+  },
+  {
+    "id": "gov_histo_mcq_71",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "Which instrument is essential for cutting very thin sections of paraffin-embedded tissue for mounting on slides?",
+    "options": [
+      "Compound Light Microscope",
+      "Microtome",
+      "Incubator",
+      "Centrifuge",
+      "Spectrophotometer"
+    ],
+    "answer": 1,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (B) Microtome."
+  },
+  {
+    "id": "gov_histo_mcq_72",
+    "source": "bank_gov_histo_ospe",
+    "subject": "histology",
+    "type": "mcq",
+    "q": "A section of small intestine is stained with the PAS reaction. Where is the most intense staining typically observed?",
+    "options": [
+      "In the connective tissue core of the villi",
+      "In the smooth muscle layer",
+      "At the lumen and in the secretory granules of goblet cells",
+      "Within the nuclei of all epithelial cells",
+      "On the basal lamina"
+    ],
+    "answer": 2,
+    "explanation": "سؤال عملي OSPE من أسئلة الكلية الحكومية للتعرف على الصبغات والأنسجة والميكروتوم والأجهزة المعملية. الإجابة الصحيحة هي: (C) At the lumen and in the secretory granules of goblet cells."
+  },
+
+  // ==========================================
+  // 7. PHARMACOLOGY BANK - GOVERNMENTAL FACULTY (حكومية)
+  // Introduction, ADME, Dynamics, Toxicity, Five Rights
+  // ==========================================
+  {
+    "id": "gov_pharma_mcq_1",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is NOT a form of medication?",
+    "options": [
+      "Tablet",
+      "Capsule",
+      "Injection",
+      "Elixir"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (C) Injection."
+  },
+  {
+    "id": "gov_pharma_mcq_2",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which organ is the main site of drug metabolism?",
+    "options": [
+      "Kidneys",
+      "Liver",
+      "Lungs",
+      "Intestines"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (B) Liver."
+  },
+  {
+    "id": "gov_pharma_mcq_3",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "First-pass effect mainly occurs in drugs administered:",
+    "options": [
+      "IV",
+      "IM",
+      "Oral",
+      "Subcutaneous"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (C) Oral."
+  },
+  {
+    "id": "gov_pharma_mcq_4",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is a topical route?",
+    "options": [
+      "Sublingual",
+      "Intravenous",
+      "Inhalation",
+      "Intramuscular"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (C) Inhalation."
+  },
+  {
+    "id": "gov_pharma_mcq_5",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Areas of rapid drug distribution include:",
+    "options": [
+      "Muscle",
+      "Fat",
+      "Skin",
+      "Liver"
+    ],
+    "answer": 3,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (D) Liver."
+  },
+  {
+    "id": "gov_pharma_mcq_6",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of these bypasses the first-pass effect?",
+    "options": [
+      "Oral",
+      "Rectal",
+      "Intravenous",
+      "All of the above"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (C) Intravenous."
+  },
+  {
+    "id": "gov_pharma_mcq_7",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following drugs will cross the blood-brain barrier more easily?",
+    "options": [
+      "Water-soluble",
+      "Fat-soluble",
+      "Protein-bound",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (B) Fat-soluble."
+  },
+  {
+    "id": "gov_pharma_mcq_8",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of these is a dosage form designed to prevent stomach irritation?",
+    "options": [
+      "Suppository",
+      "Suspension",
+      "Enteri",
+      "coated tablet",
+      "Capsule"
+    ],
+    "answer": 2,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (C) Enteri."
+  },
+  {
+    "id": "gov_pharma_mcq_9",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an example of a drug that acts mainly through non-specific interactions?",
+    "options": [
+      "Aspirin",
+      "Antibiotics",
+      "ACE inhibitors",
+      "Beta blockers",
+      "Insulin •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Insulin •."
+  },
+  {
+    "id": "gov_pharma_mcq_10",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following describes predictable but unintended secondary drugeffects?",
+    "options": [
+      "Toxic effects",
+      "Side effects",
+      "Adverse reactions",
+      "Allergic reactions",
+      "Iatrogenic effects"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (B) Side effects."
+  },
+  {
+    "id": "gov_pharma_mcq_11",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an undesirable, unexpected drug effect that must be reported to the FDA?",
+    "options": [
+      "Therapeutic effect",
+      "Side effect",
+      "Adverse effect",
+      "Toxic effect",
+      "Enzyme interaction •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Enzyme interaction •."
+  },
+  {
+    "id": "gov_pharma_mcq_12",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an example of a toxic effect of opioids?",
+    "options": [
+      "Tachycardia",
+      "Respiratory depression",
+      "Hypertension",
+      "Nausea",
+      "Rash •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Rash •."
+  },
+  {
+    "id": "gov_pharma_mcq_13",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an example of an iatrogenic response?",
+    "options": [
+      "Side effects of chemotherapy",
+      "Respiratory depression from opioids",
+      "Idiosyncratic drug reaction",
+      "Allergic rash",
+      "Foo",
+      "drug interaction"
+    ],
+    "answer": 0,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (A) Side effects of chemotherapy."
+  },
+  {
+    "id": "gov_pharma_mcq_14",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an example of drug–drug interaction?",
+    "options": [
+      "Aspirin and Warfarin increasing bleeding risk",
+      "Morphine causing constipation",
+      "Allergic rash to penicillin",
+      "Toxicity from overdose",
+      "Enzyme inhibition •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Enzyme inhibition •."
+  },
+  {
+    "id": "gov_pharma_mcq_15",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is an example of a drug with multiple therapeutic effects?",
+    "options": [
+      "Morphine",
+      "Aspirin",
+      "Antibiotics",
+      "Beta blockers",
+      "ACE inhibitors"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (B) Aspirin."
+  },
+  {
+    "id": "gov_pharma_mcq_16",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following terms describes an unpredictable response to a medication?",
+    "options": [
+      "Therapeutic effect",
+      "Toxic effect",
+      "Idiosyncratic reaction",
+      "Allergic reaction",
+      "Side effect •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Side effect •."
+  },
+  {
+    "id": "gov_pharma_mcq_17",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is the most severe type of allergic reaction?",
+    "options": [
+      "Hives",
+      "Rash",
+      "Anaphylaxis",
+      "Pruritis",
+      "Mild urticaria •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Mild urticaria •."
+  },
+  {
+    "id": "gov_pharma_mcq_18",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following terms refers to a drug reaction that causes structural defects in an unborn fetus?",
+    "options": [
+      "Carcinogenic",
+      "Mutagenic",
+      "Teratogenic",
+      "Iatrogenic",
+      "Toxic •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Toxic •."
+  },
+  {
+    "id": "gov_pharma_mcq_19",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is defined as the time it takes for one-half of the original amount of a drug in the body to be removed?",
+    "options": [
+      "Onset",
+      "Peak",
+      "Duration",
+      "Half-life",
+      "Therapeutic index •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Therapeutic index •."
+  },
+  {
+    "id": "gov_pharma_mcq_20",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following terms describes the time a drug concentration remains sufficient to elicit a therapeutic response?",
+    "options": [
+      "Onset",
+      "Peak",
+      "Duration",
+      "Half-life",
+      "Dependence •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Dependence •."
+  },
+  {
+    "id": "gov_pharma_mcq_21",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is the time it takes for a drug to reach its maximum therapeutic response?",
+    "options": [
+      "Onset",
+      "Peak",
+      "Duration",
+      "Half-life",
+      "Therapeutic index •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Therapeutic index •."
+  },
+  {
+    "id": "gov_pharma_mcq_22",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following refers to the ratio between a drug’s therapeutic benefits and its toxic effects?",
+    "options": [
+      "Half-life",
+      "Therapeutic index",
+      "Onset",
+      "Peak",
+      "Duration •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Duration •."
+  },
+  {
+    "id": "gov_pharma_mcq_23",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following terms describes a decreasing response to repetitive drug doses?",
+    "options": [
+      "Dependence",
+      "Tolerance",
+      "Toxicity",
+      "Idiosyncrasy",
+      "Hypersensitivity •"
+    ],
+    "answer": 1,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (B) Tolerance."
+  },
+  {
+    "id": "gov_pharma_mcq_24",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following drug effects involves changes in genetic composition such as those caused by radiation or chemicals?",
+    "options": [
+      "Teratogenic",
+      "Mutagenic",
+      "Carcinogenic",
+      "Toxic",
+      "Iatrogenic •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Iatrogenic •."
+  },
+  {
+    "id": "gov_pharma_mcq_25",
+    "source": "bank_gov_pharma",
+    "subject": "pharmacology",
+    "type": "mcq",
+    "q": "Which of the following is NOT one of the Five Rights of Medication Administration?",
+    "options": [
+      "Right drug",
+      "Right patient",
+      "Right physician",
+      "Right dose",
+      "Right time •"
+    ],
+    "answer": 4,
+    "explanation": "من أسئلة الفارماكولوجي - الكلية الحكومية (Introduction & General Principles). الإجابة الصحيحة: (E) Right time •."
+  },
 ];

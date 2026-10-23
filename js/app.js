@@ -900,7 +900,7 @@
     if (qTrim.length < 2) {
       return `
         <div class="question-card" style="text-align:center; color:var(--text-muted);">
-          اكتب حرفين على الأقل للبحث الفوري في أكثر من 520 سؤال وإجاباتها وشرحها العلمي.
+          اكتب حرفين على الأقل للبحث الفوري في أكثر من 790 سؤال وإجاباتها وشرحها العلمي.
         </div>
       `;
     }

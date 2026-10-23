@@ -27,6 +27,24 @@ window.ESSAY_SOURCES = [
     title: "بنك الأسئلة المقالية الجديد (SEQs Bank - Q2)",
     subtitle: "Biochemistry, Anatomy & Pharmacology Short-Answer Questions",
     badge: "تجميعة SEQs الجديدة 📝"
+  },
+  {
+    id: "essay_bank_gov_bio",
+    title: "تحديدات مقالي الكيمياء الحيوية 2027 (BIO-VIP)",
+    subtitle: "Carbohydrates, Lipids & Amino Acids High-Yield VIP MEQs",
+    badge: "تحديدات بايو VIP 🔥"
+  },
+  {
+    id: "essay_bank_gov_micro",
+    title: "مقالي وحالات الميكروبيولوجي الشاملة (MEQs & Cases)",
+    subtitle: "Microbiology General & Case-Based Modified Essay Questions",
+    badge: "مقالي مايكرو 🦠"
+  },
+  {
+    id: "essay_bank_gov_histo",
+    title: "أسئلة الهستولوجي المقالية وتفسيرات الكاريوتايب (Histo Short Answer)",
+    subtitle: "Histology Immunocytochemistry, Culture, Stains & Karyotyping",
+    badge: "مقالي هستو 🔬"
   }
 ];
 
@@ -752,5 +770,535 @@ window.QUESTIONS_ESSAY = [
       "5. Right Time (administering at the precise scheduled intervals and timing)."
     ],
     tip: "حقوق إعطاء الدواء الخمسة: Right Patient, Right Drug, Right Dose, Right Route, Right Time."
-  }
+  },
+  // ==========================================
+  // 5. GOVERNMENTAL FACULTY (حكومية) - VIP ESSAYS & MEQs
+  // Biochemistry (VIP 2027), Microbiology (MEQs & Cases), Histology (Short Answer)
+  // ==========================================
+  {
+    "id": "meq_gov_bio_1",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "What are the main biological functions of carbohydrates?",
+    "points": [
+      "1. Energy Supply: Major immediate source of dietary calories and metabolic energy (glucose yields 4 kcal/g).",
+      "2. Energy Reserve: Storage fuel in tissues (glycogen stored in liver and skeletal muscles in animals; starch in plants).",
+      "3. Cell Communication & Recognition: Structural components of membrane glycoproteins and glycolipids that mediate cell-to-cell recognition, adhesion, and receptor signaling."
+    ],
+    "tip": "وظائف الكربوهيدرات الثلاث الرئيسية: Energy Supply (طاقة فورية), Energy Reserve (تخزين جليكوجين), Cell Communication (جلايكوبروتينات الغشاء الخلوي)."
+  },
+  {
+    "id": "meq_gov_bio_2",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "Classify monosaccharides according to the number of carbon atoms, giving an example of each.",
+    "points": [
+      "1. Trioses (3 Carbons): Glyceraldehyde (Aldotriose), Dihydroxyacetone (Ketotriose).",
+      "2. Tetroses (4 Carbons): Erythrose (Aldotetrose), Erythrulose (Ketotetrose).",
+      "3. Pentoses (5 Carbons): Ribose (in RNA/ATP), Deoxyribose (in DNA), Xylulose, Ribulose.",
+      "4. Hexoses (6 Carbons): Glucose (grape sugar/blood sugar), Galactose, Fructose (fruit sugar), Mannose."
+    ],
+    "tip": "تقسيم السكريات الأحادية حسب عدد الكربونات: Trioses (3C), Tetroses (4C), Pentoses (5C), Hexoses (6C) مع حفظ مثال ألدوز وكيتوز."
+  },
+  {
+    "id": "meq_gov_bio_3",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "Define asymmetric carbon, epimers, and anomers with examples.",
+    "points": [
+      "• Asymmetric (Chiral) Carbon: A carbon atom bonded to four different chemical atoms or groups, conferring optical activity (dextrorotatory vs levorotatory).",
+      "• Epimers: Isomers that differ in the configuration around only ONE specific carbon atom (other than the anomeric carbon). Examples: D-Glucose and D-Galactose are C4-epimers; D-Glucose and D-Mannose are C2-epimers.",
+      "• Anomers: Cyclization isomers that differ in spatial configuration specifically at the anomeric (carbonyl) carbon (C1 in aldoses, C2 in ketoses) upon ring closure, forming α or β forms (e.g., α-D-glucopyranose and β-D-glucopyranose)."
+    ],
+    "tip": "الفرق بين Epimers و Anomers: الـ Epimers اختلاف في كربونة واحدة عادية (C2 أو C4)، بينما الـ Anomers اختلاف في الكربونة الأنوميرية (C1) لتكوين α أو β."
+  },
+  {
+    "id": "meq_gov_bio_4",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "What is the biological importance of lipids?",
+    "points": [
+      "1. Concentrated Energy Storage: Highly compact, water-free fuel storage in adipose tissue (triacylglycerols provide ~9 kcal/g, more than double carbohydrates).",
+      "2. Supply of Essential Nutrients: Vehicle for absorption and transport of fat-soluble vitamins (A, D, E, K) and supplies essential fatty acids (Linoleic and Linolenic).",
+      "3. Structural Framework: Principal lipid bilayer of all cellular and organelle membranes (phospholipids, sphingolipids, cholesterol).",
+      "4. Precursors: Starting materials for biosynthesis of steroid hormones (cortisol, estrogen, testosterone), Vitamin D, bile acids/salts, and eicosanoids (prostaglandins)."
+    ],
+    "tip": "الأهمية الحيوية لليبدات: Energy Storage (9 kcal/g), Fat-soluble vitamins & EFAs, Cell membranes bilayer, Precursor of steroids & bile salts."
+  },
+  {
+    "id": "meq_gov_bio_5",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "Explain the biological classification of fatty acids with examples.",
+    "points": [
+      "• Essential Fatty Acids (EFAs): Cannot be synthesized de novo by the human body due to lack of desaturase enzymes beyond carbon 9; must be supplied in diet.",
+      "  - Examples: Linoleic acid (18:2, ω-6) and α-Linolenic acid (18:3, ω-3). Required for membrane fluidity, brain development, and eicosanoid synthesis.",
+      "• Non-Essential Fatty Acids: Can be synthesized endogenously by the human body from carbohydrate or acetyl-CoA precursors.",
+      "  - Examples: Palmitic acid (16:0), Stearic acid (18:0), and Oleic acid (18:1, ω-9)."
+    ],
+    "tip": "الأحماض الدهنية الأساسية Essential: Linoleic (ω-6) و Linolenic (ω-3) لا يستطيع الجسم تصنيعها ويجب أخذها في الغذاء."
+  },
+  {
+    "id": "meq_gov_bio_6",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "What are the differences between saturated and unsaturated fatty acids?",
+    "points": [
+      "• Saturated Fatty Acids (SFAs):",
+      "  - Chemical Structure: Contain NO double bonds along the hydrocarbon chain (fully saturated with hydrogen atoms).",
+      "  - Physical State: Solid or semi-solid at room temperature (higher melting points) due to tight straight-chain packing.",
+      "  - Sources: Predominantly animal fats, butter, lard, coconut oil (e.g., Palmitic acid 16:0, Stearic acid 18:0).",
+      "• Unsaturated Fatty Acids (UFAs):",
+      "  - Chemical Structure: Contain one or more double bonds (Monounsaturated MUFAs, Polyunsaturated PUFAs), usually in cis-configuration causing kinks.",
+      "  - Physical State: Liquid at room temperature (oils, lower melting points) because kinks prevent tight crystalline packing.",
+      "  - Sources: Plant oils (olive oil, corn oil), nuts, and fatty fish (e.g., Oleic acid 18:1, Linoleic acid 18:2)."
+    ],
+    "tip": "المقارنة: Saturated (No double bonds, Solid at room temp, Animal fats) vs Unsaturated (≥1 double bonds, Liquid oils, Plant & Fish oils)."
+  },
+  {
+    "id": "meq_gov_bio_7",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "Describe the general chemical structure of amino acids and their biological classification.",
+    "points": [
+      "• General Chemical Structure: A central α-carbon bonded to: 1. Carboxylic acid group (-COOH); 2. Amino group (-NH2); 3. Hydrogen atom (-H); 4. Distinctive variable side chain (-R group). (Note: Proline is an imino acid with a secondary cyclic ring).",
+      "• Biological Nutritional Classification:",
+      "  1. Essential Amino Acids (10): Cannot be synthesized by the body in adequate amounts; must be ingested in diet. (Mnemonic: PVT TIM HALL: Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine).",
+      "  2. Non-Essential Amino Acids (10): Readily synthesized from metabolic intermediates (Glycine, Alanine, Serine, Cysteine, Tyrosine, Glutamate, Glutamine, Aspartate, Asparagine, Proline).",
+      "  3. Semi-Essential Amino Acids: Arginine and Histidine (synthesized in adults but rate is insufficient during rapid growth in children and pregnancy)."
+    ],
+    "tip": "احفظ تجميعة الأحماض الأمينية الأساسية العشرات: PVT TIM HALL (Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine)."
+  },
+  {
+    "id": "meq_gov_bio_8",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "What is the biological importance of amino acids and proteins?",
+    "points": [
+      "1. Catalysis & Regulation: All enzymes and many polypeptide hormones (insulin, glucagon, growth hormone) that regulate metabolic pathways.",
+      "2. Structural Architecture: Fibrous structural proteins such as Collagen (bone, skin, tendons), Elastin, and Keratin (hair, nails).",
+      "3. Cellular Movement & Contractility: Actin and Myosin in skeletal, cardiac, and smooth muscle fibers.",
+      "4. Transport & Storage: Hemoglobin and Myoglobin (O2 transport), Albumin (carrier for free fatty acids, bilirubin, drugs), Transferrin (iron transport).",
+      "5. Immune Defense: Immunoglobulins (Antibodies) recognizing foreign antigens, and complement proteins."
+    ],
+    "tip": "الأهمية الحيوية للبروتينات والأحماض الأمينية: Enzymes, Hormones, Structural (Collagen), Movement (Actin/Myosin), Transport (Hb/Albumin), Immunity (Antibodies)."
+  },
+  {
+    "id": "meq_gov_bio_9",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "Define a peptide bond, describing its formation and characteristics.",
+    "points": [
+      "• Definition: A strong, covalent amide linkage (-CO-NH-) connecting the α-carboxyl group of one amino acid to the α-amino group of an adjacent amino acid.",
+      "• Formation: Formed via a condensation (dehydration) reaction with the release of one water molecule (H2O).",
+      "• Characteristics:",
+      "  1. Partial double-bond character (40%) due to resonance between carbonyl oxygen and nitrogen.",
+      "  2. Rigid and planar (no free rotation around the C-N peptide bond).",
+      "  3. Usually in trans configuration to minimize steric hindrance between R-groups.",
+      "  4. Uncharged but polar (involved in hydrogen bonding in α-helix and β-pleated sheets)."
+    ],
+    "tip": "الرابطة الببتيدية: Covalent amide bond (-CO-NH-) تمتاز بـ Partial double bond character و Rigid & Planar و Trans configuration."
+  },
+  {
+    "id": "meq_gov_bio_10",
+    "source": "essay_bank_gov_bio",
+    "subject": "biochemistry",
+    "marks": "VIP 2027",
+    "q": "What are post-translational modifications of amino acids? Give examples.",
+    "points": [
+      "• Definition: Enzymatic, covalent alterations occurring to specific amino acid residues after protein synthesis (translation) on ribosomes, essential for protein function, stability, or localization.",
+      "• Key Examples:",
+      "  1. Hydroxylation: Hydroxylation of Proline to Hydroxyproline, and Lysine to Hydroxylysine in collagen (catalysed by prolyl/lysyl hydroxylase; requires Vitamin C; defect causes Scurvy).",
+      "  2. Phosphorylation: Addition of phosphate group (-PO4) to hydroxyl groups of Serine, Threonine, or Tyrosine (catalysed by Protein Kinases; reversibly regulates enzyme activity).",
+      "  3. Carboxylation: Addition of carboxyl group to Glutamate to form γ-carboxyglutamate in blood clotting factors (II, VII, IX, X); requires Vitamin K.",
+      "  4. Glycosylation: Attachment of oligosaccharides to Asparagine (N-linked) or Serine/Threonine (O-linked) for membrane and secretory proteins."
+    ],
+    "tip": "أهم أمثلة الـ Post-translational modifications: Hydroxylation (الكولاجين وفيتامين C), Phosphorylation (تنشيط وتثبيط الإنزيمات), Carboxylation (تجلط الدم وفيتامين K)."
+  },
+  {
+    "id": "meq_gov_micro_1",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Define microorganisms and list the five major biological groups.",
+    "points": [
+      "• Definition: Microorganisms are minute, generally microscopic unicellular entities capable of carrying out fundamental biological functions required to maintain life and propagate.",
+      "• Five Major Biological Groups:",
+      "  1. Bacteria: Unicellular prokaryotic organisms with peptidoglycan cell walls that replicate by binary fission.",
+      "  2. Viruses: Obligate intracellular molecular parasites consisting of a DNA or RNA genome enclosed in a protein capsid (lacking cellular machinery).",
+      "  3. Fungi: Eukaryotic organisms possessing chitinous cell walls, including single-celled yeasts and multicellular filamentous molds.",
+      "  4. Protozoa: Unicellular eukaryotic parasites exhibiting motility (amebae, flagellates, ciliates, sporozoa).",
+      "  5. Prions: Proteinaceous infectious particles devoid of nucleic acids that induce misfolding of normal host prion proteins."
+    ],
+    "tip": "المجموعات الحيوية الخمس: Bacteria (بدائيات النواة), Viruses (طفيليات داخلية إجبارية), Fungi (حقيقيات جدار كيتيني), Protozoa (أوليات), Prions (بروتينات معدية)."
+  },
+  {
+    "id": "meq_gov_micro_2",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Describe the different shapes and arrangements of bacteria, giving one example for each.",
+    "points": [
+      "1. Cocci (Spherical cells):",
+      "   • In pairs (Diplococci): e.g., Neisseria meningitidis / Streptococcus pneumoniae.",
+      "   • In chains: e.g., Streptococcus pyogenes.",
+      "   • In grape-like clusters: e.g., Staphylococcus aureus.",
+      "2. Bacilli (Rod-shaped cells):",
+      "   • Single rods: e.g., Escherichia coli.",
+      "   • In chains (Streptobacilli): e.g., Bacillus anthracis.",
+      "   • Curved/Comma-shaped rods: e.g., Vibrio cholerae.",
+      "3. Spiral (Helical cells):",
+      "   • Rigid helical: e.g., Spirillum volutans.",
+      "   • Flexible, undulating spirochetes: e.g., Treponema pallidum (Syphilis)."
+    ],
+    "tip": "أشكال وترتيب البكتيريا: Cocci (سلاسل Streptococci أو عناقيد Staphylococci), Bacilli (عصويات مثل E. coli و Bacillus), Spiral (لولبية مثل Treponema)."
+  },
+  {
+    "id": "meq_gov_micro_3",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Compare plasmids and the bacterial chromosome in terms of structure, replication, and function.",
+    "points": [
+      "• Bacterial Chromosome (Nucleoid):",
+      "  - Structure: Single, large, circular, double-stranded DNA molecule without a nuclear envelope.",
+      "  - Replication: Replicates synchronously with bacterial cell division (essential for cell survival).",
+      "  - Function: Carries essential housekeeping genes required for bacterial viability, metabolism, and growth.",
+      "• Plasmids:",
+      "  - Structure: Small, circular, extrachromosomal double-stranded DNA molecules.",
+      "  - Replication: Autonomous, self-replicating independent of the main bacterial chromosome.",
+      "  - Function: Non-essential for baseline viability, but confers selective survival advantages: antibiotic resistance (R-plasmids), toxin production, bacteriocins, and conjugative gene transfer (F-plasmids)."
+    ],
+    "tip": "المقارنة: Chromosome (جينات أساسية للحياة, انقسام متزامن) vs Plasmids (حمض نووي إضافي مستقل, ينقل مقاومة المضادات الحيوية R-factors والسموم)."
+  },
+  {
+    "id": "meq_gov_micro_4",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Explain the structure of the bacterial ribosome and how it differs from the eukaryotic ribosome. Why is this difference clinically important?",
+    "points": [
+      "• Bacterial Ribosome Structure: 70S sedimentation coefficient, composed of two unequal ribonucleoprotein subunits:",
+      "  - Large 50S subunit (contains 23S rRNA, 5S rRNA, and 34 proteins).",
+      "  - Small 30S subunit (contains 16S rRNA and 21 proteins).",
+      "• Difference from Eukaryotic Ribosome: Eukaryotic cytoplasmic ribosomes are 80S (composed of 60S + 40S subunits).",
+      "• Clinical Importance (Selective Toxicity):",
+      "  - Allows antibiotics to selectively target and inhibit bacterial 70S protein synthesis without affecting host human 80S ribosomes.",
+      "  - Examples: Aminoglycosides (Gentamicin) and Tetracyclines bind the 30S subunit; Macrolides (Erythromycin) and Chloramphenicol inhibit the 50S subunit."
+    ],
+    "tip": "الأهمية الإكلينيكية لريبووسوم البكتيريا: البكتيريا 70S (50S+30S) بينما خلايا الإنسان 80S (60S+40S)، مما يحقق Selective Toxicity للمضادات الحيوية."
+  },
+  {
+    "id": "meq_gov_micro_5",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "List and describe the functions of the bacterial cytoplasmic membrane.",
+    "points": [
+      "1. Selective Permeability & Transport: Regulates solute entry and exit via specific permeases, ion channels, and active transport systems.",
+      "2. Respiration & Energy (ATP) Generation: Houses electron transport chains, cytochromes, and ATP synthase (acts as functional equivalent of mitochondria).",
+      "3. Biosynthetic Functions: Contains enzymes responsible for the synthesis of peptidoglycan, teichoic acids, outer membrane components, and capsular polysaccharides.",
+      "4. Secretion: Directs secretion of extracellular hydrolytic enzymes, exotoxins, and virulence factors.",
+      "5. DNA Segregation: Inward invaginations (Mesosomes) participate in chromosome attachment, replication, and septum formation during cell division."
+    ],
+    "tip": "وظائف الغشاء السيتوبلازمي البكتيري: Selective permeability, Energy generation/ATP (بديل الميتوكوندريا), Peptidoglycan synthesis, Exotoxin secretion."
+  },
+  {
+    "id": "meq_gov_micro_6",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Describe the structure of peptidoglycan and explain its importance for bacterial survival.",
+    "points": [
+      "• Structure: Rigid, giant macromolecular sacculus consisting of:",
+      "  1. Linear glycan strands: Alternating repeating disaccharide units of N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM) linked by β(1→4) glycosidic bonds.",
+      "  2. Tetrapeptide side chains attached to NAM residues (containing D- and L-amino acids like D-alanine).",
+      "  3. Peptide cross-links (transpeptidation) connecting adjacent tetrapeptide chains, catalyzed by Transpeptidase (Penicillin-Binding Proteins - PBPs).",
+      "• Importance for Bacterial Survival:",
+      "  - Provides structural rigidity and confers bacterial morphology (rod, sphere, spiral).",
+      "  - Counteracts high internal bacterial osmotic pressure (5-20 atmospheres), preventing osmotic lysis and cell rupture in hypotonic environments."
+    ],
+    "tip": "البيبتيدوجلايكان: يتكون من NAG و NAM بروابط β(1→4) وسلاسل ببتيدية متقاطعة بروابط Transpeptidation لحماية البكتيريا من الانفجار الإسموزي (Osmotic lysis)."
+  },
+  {
+    "id": "meq_gov_micro_7",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Compare and contrast the cell walls of gram-positive and gram-negative bacteria.",
+    "points": [
+      "• Gram-Positive Cell Wall:",
+      "  - Peptidoglycan: Very thick, multilayered (20-80 nm, up to 40 layers), forming ~50-90% of dry wall weight.",
+      "  - Teichoic & Lipoteichoic Acids: Present (major surface antigens, promote adherence).",
+      "  - Outer Membrane & Lipopolysaccharide (LPS): Completely ABSENT.",
+      "  - Periplasmic Space: Narrow or absent.",
+      "  - Susceptibility: Highly susceptible to penicillin and lysozyme digestion.",
+      "• Gram-Negative Cell Wall:",
+      "  - Peptidoglycan: Very thin, single/few layers (1-3 nm), representing only ~5-10% of dry weight.",
+      "  - Outer Membrane: PRESENT (asymmetric bilayer: inner phospholipids, outer Lipopolysaccharide - LPS).",
+      "  - Periplasmic Space: Wide, containing beta-lactamases and hydrolytic enzymes.",
+      "  - Porin Proteins: Present in outer membrane for transport of hydrophilic nutrients.",
+      "  - Teichoic Acids: Completely ABSENT."
+    ],
+    "tip": "المقارنة الذهبية: Gram-positive (Peptidoglycan سميك + Teichoic acids, No outer membrane) vs Gram-negative (Peptidoglycan رقيق + Outer membrane + LPS + Porins)."
+  },
+  {
+    "id": "meq_gov_micro_8",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Describe the structure of lipopolysaccharide (LPS) and explain its role in disease.",
+    "points": [
+      "• Structure of LPS (Endotoxin): Located exclusively in the outer leaflet of the gram-negative outer membrane; composed of 3 structural domains:",
+      "  1. Lipid A: Phosphorylated glucosamine disaccharide attached to long fatty acid chains; embedded in membrane; responsible for toxicity and endotoxic shock.",
+      "  2. Core Oligosaccharide: Central polysaccharide chain (contains unique sugars like KDO).",
+      "  3. O-Antigen (O-Specific Polysaccharide): Repeating hydrophilic polysaccharide units protruding outwards; major serological antigen used for strain identification.",
+      "• Role in Disease (Endotoxin Shock):",
+      "  - Released during bacterial cell lysis; binds CD14/TLR4 on macrophages.",
+      "  - Triggers massive release of pro-inflammatory cytokines: IL-1 and TNF-α (inducing high fever, hypotension, DIC, endothelial damage, and septic shock)."
+    ],
+    "tip": "تركيب الـ LPS (الإندوتوكسين): Lipid A (المسؤول عن السمية والصدمة الإنتانية), Core polysaccharide, O-Antigen (لتحديد فصيلة البكتيريا). يحفز إفراز TNF-α و IL-1."
+  },
+  {
+    "id": "meq_gov_micro_9",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Explain the structure, types, and functions of flagella and fimbriae (pili).",
+    "points": [
+      "• Flagella (Organ of Locomotion):",
+      "  - Structure: Long, helical, whip-like filamentous appendages composed of the protein Flagellin (H-antigen), attached via a hook and basal body motor.",
+      "  - Arrangements: Monotrichous (single polar), Lophotrichous (tuft at one pole), Amphitrichous (flagella at both poles), Peritrichous (surrounding entire cell).",
+      "  - Function: Chemotaxis (swimming toward nutrients or away from repellents).",
+      "• Fimbriae / Pili (Organ of Adherence):",
+      "  - Structure: Short, straight, hair-like projections composed of Pilin protein.",
+      "  - Types & Functions:",
+      "    1. Common Pili (Fimbriae): Adherence to host mucosal epithelial cells (adhesins, critical for colonization and virulence, e.g., Neisseria gonorrhoeae).",
+      "    2. Sex Pili (F-pili): Longer, specialized pili mediating bacterial conjugation and transfer of plasmid DNA."
+    ],
+    "tip": "Flagella (الحركة والسباحة, بروتين Flagellin / H-antigen) vs Fimbriae (الالتصاق بالغشاء المخاطي, والـ Sex pili لنقل البلازميد بالاقتران Conjugation)."
+  },
+  {
+    "id": "meq_gov_micro_10",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Micro MEQ",
+    "q": "Discuss the structure, resistance, and germination of bacterial endospores.",
+    "points": [
+      "• Structure: Highly dehydrated, dormant survival forms produced by Bacillus and Clostridium inside the cell. Layers from inside out: Core (DNA, ribosomes, Dipicolinic acid + Calcium), Inner membrane, Germ cell wall, Cortex (peptidoglycan), Keratin-like Protein Spore Coat, Exosporium.",
+      "• Resistance Mechanism: Extremely resistant to heat, boiling, desiccation, UV radiation, and chemical disinfectants due to: 1. Dehydrated state; 2. Calcium dipicolinate; 3. Thick impermeable keratin-like protein coat; 4. SASPs protecting DNA.",
+      "• Sporulation & Germination:",
+      "  - Sporulation: Triggered by nutrient depletion (takes ~6-8 hours).",
+      "  - Germination: Activated by heat/moisture/nutrients (alanine), rapidly transforming dormant spore back into a single metabolically active vegetative bacterium."
+    ],
+    "tip": "الأبواغ البكتيرية (Endospores): وسيلة بقاء وحماية وليست تكاثر. سر مقاومتها للحرارة هو Calcium dipicolinate والجفاف، وتتطلب التعقيم بـ Autoclave عند 121°C."
+  },
+  {
+    "id": "meq_gov_micro_11",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Case Scenario MEQ",
+    "q": "MEQ Case 1: A gram-positive bacterium is isolated from a wound. It has a thick peptidoglycan layer and teichoic acids. Describe its cell wall and list three functions of teichoic acids.",
+    "points": [
+      "a) Structure of Gram-Positive Cell Wall:",
+      "   • Consists of a thick (20-80 nm), homogeneous peptidoglycan layer comprising multiple alternating NAG-NAM glycan chains densely cross-linked by pentaglycine bridges.",
+      "   • Interwoven with polyol phosphate polymers (Teichoic acids and membrane-anchored Lipoteichoic acids).",
+      "b) Three Functions of Teichoic Acids:",
+      "   1. Antigenic Specificity: Acts as the major surface antigen of gram-positive bacteria for serological identification.",
+      "   2. Adherence & Colonization: Binds specifically to fibronectin on mammalian host cell surfaces to facilitate tissue adherence.",
+      "   3. Ion Regulation & Wall Integrity: Possesses a negative charge that binds and sequesters divalent cations (Mg2+, Ca2+) to maintain cell wall stability and regulate autolysins."
+    ],
+    "tip": "وظائف Teichoic acids في البكتيريا الموجبة: Major surface antigen, Adherence to host tissues (fibronectin), Binding Mg2+ & Ca2+ ions."
+  },
+  {
+    "id": "meq_gov_micro_12",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Case Scenario MEQ",
+    "q": "MEQ Case 2: A gram-negative bacterium causes septic shock in an ICU patient. Describe outer membrane structure, explain what LPS is, and state the function of porins.",
+    "points": [
+      "a) Structure of Outer Membrane: Asymmetric lipid bilayer situated external to the periplasmic space and thin peptidoglycan. The inner leaflet consists of phospholipids, while the outer leaflet is composed of Lipopolysaccharide (LPS).",
+      "b) Lipopolysaccharide (LPS) as Endotoxin:",
+      "   • LPS is an integral component of the gram-negative cell wall. It is called an 'endotoxin' because it remains anchored within the bacterial structure and is released upon cell lysis.",
+      "   • Its Lipid A moiety stimulates macrophages via TLR4 to release excessive TNF-α, IL-1, and nitric oxide, leading to fever, hypotension, and septic shock.",
+      "c) Porins and Their Function:",
+      "   • Trimeric transmembrane protein channels spanning the outer membrane.",
+      "   • Function: Form water-filled diffusion pores that allow passive influx of small hydrophilic nutrients, ions, and beta-lactam antibiotics (molecular weight ≤600-700 Da)."
+    ],
+    "tip": "في الصدمة الإنتانية للبكتيريا السالبة: الـ LPS هو الإندوتوكسين وجزؤه السام Lipid A يسبب إفراز TNF-α، والـ Porins هي القنوات التي تسمح بمرور المغذيات والمضادات الحيوية."
+  },
+  {
+    "id": "meq_gov_micro_13",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Case Scenario MEQ",
+    "q": "MEQ Case 3: A soil bacterium survives extreme heat and radiation. Name the structure responsible, describe its composition, and outline sporulation and germination.",
+    "points": [
+      "a) Structure Responsible: Bacterial Endospore (produced by genera Bacillus and Clostridium).",
+      "b) Structure and Composition:",
+      "   • Central core with condensed DNA, ribosomes, and high concentration of Calcium dipicolinate (10-15% dry weight).",
+      "   • Surrounded by inner membrane, germ cell wall, thick Cortex of loosely cross-linked peptidoglycan, and an impermeable multi-layered Keratin-like protein Spore Coat.",
+      "c) Steps of Sporulation (Triggered by starvation):",
+      "   1. DNA replication and axial filament formation; 2. Asymmetric septation isolating DNA in forespore; 3. Engulfment of forespore by mother cell; 4. Cortex formation; 5. Spore coat deposition; 6. Mother cell lysis releasing mature endospore.",
+      "d) Germination Process:",
+      "   • Triggered by physical activation (sublethal heat) followed by binding of nutrients (e.g., L-alanine) to spore receptors, water uptake, enzymatic degradation of cortex, and emergence of a single vegetative bacterium."
+    ],
+    "tip": "تكوين الأبواغ (Sporulation) يبدأ بنقص الغذاء، والإنبات (Germination) يعيد تحويل البوغ لخلية بكتيرية نشطة عند توفر الرطوبة والغذاء."
+  },
+  {
+    "id": "meq_gov_micro_14",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Case Scenario MEQ",
+    "q": "MEQ Case 4: A pathogenic bacterium is motile and adheres to host cells. Name two external structures involved, describe their roles, and differentiate capsule from slime layer.",
+    "points": [
+      "a) Two External Structures Involved: Flagella (for motility) and Fimbriae / Pili (for adherence).",
+      "b) Flagella Structure & Function: Helical filaments composed of flagellin protein driven by a proton-motive force rotary motor in the cell membrane; provides purposeful directional swimming (chemotaxis) toward mucosal surfaces.",
+      "c) Fimbriae Structure & Function: Filamentous appendages with adhesive tip proteins (adhesins) that specifically attach to complementary host mucosal receptors, preventing clearance by fluid flow.",
+      "d) Capsule vs Slime Layer (Glycocalyx):",
+      "   • Capsule: Dense, well-organized gelatinous polysaccharide layer firmly attached to the cell wall; visualized by negative staining (India ink); functions as major anti-phagocytic virulence factor.",
+      "   • Slime Layer: Loose, unorganized, amorphous, easily detached polysaccharide matrix; primarily promotes adherence and biofilm formation on medical devices (catheters, prosthetic valves)."
+    ],
+    "tip": "الفرق بين Capsule و Slime layer: الكبسولة منظمة وثابتة ومضادة للبلعمة (Antiphagocytic)، بينما السلايم طبقة هلامية رخوة مسؤولة عن تكوين البيوفيلم (Biofilm)."
+  },
+  {
+    "id": "meq_gov_micro_15",
+    "source": "essay_bank_gov_micro",
+    "subject": "microbiology",
+    "marks": "Comparative MEQ",
+    "q": "MEQ Case 5: Compare prokaryotic and eukaryotic cells in terms of ribosome size, cytoplasmic membrane, genetic material, and explain the clinical relevance for chemotherapy.",
+    "points": [
+      "a) Ribosome Size: Prokaryotic ribosomes are 70S (50S + 30S subunits); eukaryotic ribosomes are 80S (60S + 40S subunits) in cytoplasm.",
+      "b) Cytoplasmic Membrane Composition: Prokaryotic membranes lack sterols/cholesterol (except Mycoplasma) and house respiratory enzymes; eukaryotic membranes contain cholesterol and do not carry respiratory chains.",
+      "c) Genetic Material Organization: Prokaryotes possess a single, circular, haploid chromosome in an unenclosed nucleoid (no histones, no nuclear membrane); eukaryotes possess multiple linear diploid chromosomes wound around histones within a double-membrane nucleus.",
+      "d) Clinical Relevance for Chemotherapy (Selective Toxicity):",
+      "   • Enables antimicrobial drugs to destroy bacteria without killing human cells (e.g., Penicillin targets peptidoglycan which humans lack; Aminoglycosides target 70S ribosomes leaving 80S intact; Antifungals target ergosterol which human membranes lack)."
+    ],
+    "tip": "الأساس العلمي لـ Selective Toxicity للمضادات الحيوية يعتمد على الفروق بين بدائيات وحقيقيات النواة (Peptidoglycan, 70S vs 80S, Sterols)."
+  },
+  {
+    "id": "meq_gov_histo_1",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Compare and contrast the direct and indirect methods of immunocytochemistry.",
+    "points": [
+      "• Direct Method:",
+      "  - Uses a single primary antibody that is directly conjugated/labeled with a fluorescent dye or enzyme.",
+      "  - Simpler protocol with fewer incubation and washing steps.",
+      "  - Lower sensitivity because only a limited number of labeled antibodies bind to each antigen.",
+      "• Indirect Method:",
+      "  - Uses two antibodies: an unlabeled primary antibody that binds the tissue antigen, followed by a labeled secondary antibody directed against the primary antibody.",
+      "  - Substantially higher sensitivity due to Signal Amplification (multiple secondary antibodies bind each primary antibody molecule).",
+      "  - More versatile and cost-effective as one labeled secondary antibody can detect many different primary antibodies.",
+      "• Common Feature: Both methods require fluorescence or light microscopy for visualization."
+    ],
+    "tip": "المقارنة بين طريقتي المناعة الهستولوجية: Direct (جسم مضاد أولي مصبوغ مباشرة, أقل حساسية) vs Indirect (أولي غير مصبوغ + ثانوي مصبوغ, يوفر تكبيراً للإشارة Signal Amplification)."
+  },
+  {
+    "id": "meq_gov_histo_2",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Explain the principle and applications of cell and tissue culture.",
+    "points": [
+      "• Principle:",
+      "  - Involves isolation and maintenance of living cells, tissues, or organs outside their natural in vivo environment in an artificial nutrient-rich culture medium under strictly sterile (aseptic) conditions and controlled temperature (37°C) and CO2.",
+      "• Key Applications:",
+      "  1. Direct Microscopic Observation: Allows real-time visualization of cellular behavior, division, motility, and differentiation.",
+      "  2. Pharmacological & Toxicological Testing: Enables testing the efficacy and cytotoxicity of novel drugs, chemicals, or hormones on specific cell lines before animal testing.",
+      "  3. Vaccine & Biopharmaceutical Production: Used to propagate viruses and bacteria for vaccine manufacture, and recombinant therapeutic proteins.",
+      "  4. Karyotyping & Cytogenetics: Provides dividing cells (lymphocytes, fibroblasts) arrested at metaphase for chromosomal analysis."
+    ],
+    "tip": "أهمية زراعة الخلايا والأنسجة (Tissue Culture): دراسة سلوك الخلايا الحية, اختبار الأدوية والسمية, تصنيع اللقاحات, وتحضير الخلايا لعمل الكاريوتايبينج."
+  },
+  {
+    "id": "meq_gov_histo_3",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Differentiate between orthochromasia and metachromasia in histological staining.",
+    "points": [
+      "• Orthochromasia:",
+      "  - Definition: Staining of tissue components in the exact same color as that of the dye solution used.",
+      "  - Example: Toluidine blue stains ordinary tissue structures and background in BLUE.",
+      "• Metachromasia:",
+      "  - Definition: Staining of specific polyanionic tissue components in a DIFFERENT color from the original dye solution due to molecular polymerization of dye molecules.",
+      "  - Classic Example: Toluidine Blue (a blue dye) stains the heparin-rich granules of Mast Cells in a PURPLE / REDDISH-VIOLET color.",
+      "  - Mechanism: High density of closely spaced negative charges (sulfate/phosphate groups) causes stacking of dye cations (dimers and polymers), altering their light absorption spectrum."
+    ],
+    "tip": "الفرق بين Orthochromasia (تصبغ بنفس لون الصبغة الأزرق) و Metachromasia (تغير لون الصبغة إلى بنفسجي/أرجواني مثل حبيبات Mast cells مع صبغة Toluidine Blue)."
+  },
+  {
+    "id": "meq_gov_histo_4",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "List five primary clinical indications for performing a karyotype analysis.",
+    "points": [
+      "1. Congenital Anomalies & Dysmorphic Features: Investigating suspected chromosomal syndromes (e.g., Down syndrome, Edwards, Patau) in newborns or children with developmental delay.",
+      "2. Recurrent Spontaneous Abortions: Evaluating couples experiencing repeated pregnancy loss (≥2 miscarriages) to detect balanced translocations.",
+      "3. Infertility Assessment: Investigating unexplained primary or secondary infertility in men or women (e.g., Klinefelter syndrome 47,XXY; Turner syndrome 45,X).",
+      "4. Ambiguous Genitalia & Disorders of Sex Development (DSD): Determining genetic sex and sex chromosome complement in newborns with unclear external genitalia.",
+      "5. Cancer Diagnosis, Prognosis & Therapy: Detecting acquired diagnostic or prognostic chromosomal aberrations in hematological malignancies (e.g., Philadelphia chromosome t(9;22) in CML) and solid tumors."
+    ],
+    "tip": "دواعي عمل الكاريوتايبينج الخمسة: 1. تشوهات المواليد والعيوب الخلقية; 2. الإجهاض المتكرر; 3. العقم عند الزوجين; 4. تحديد الجنس عند غموض الأعضاء التناسلية; 5. تشخيص ومتابعة أورام الدم والسرطان."
+  },
+  {
+    "id": "meq_gov_histo_5",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Describe the basic steps involved in obtaining a standard karyotype from a peripheral blood sample.",
+    "points": [
+      "1. Cell Collection: Peripheral blood sample is drawn in a heparinized tube; mononuclear white blood cells (lymphocytes) are separated.",
+      "2. Cell Culture & Mitogenic Stimulation: Lymphocytes are incubated in a sterile nutrient medium containing Phytohemagglutinin (PHA) at 37°C for 48-72 hours to stimulate T-cell mitosis.",
+      "3. Metaphase Arrest: Colchicine (or colcemid) is added to disrupt the mitotic spindle microtubules, arresting dividing cells at Metaphase (where chromosomes are most condensed).",
+      "4. Hypotonic Treatment: Cells are treated with a dilute hypotonic KCl solution, causing them to swell osmotically and spread chromosomes apart without lysing.",
+      "5. Fixation & Slide Preparation: Cells are fixed in Carnoy's fixative (methanol/acetic acid 3:1), dropped onto glass slides, and dried.",
+      "6. Banding & Microscopy: Slides are stained using G-banding (Trypsin-Giemsa), visualized under high-resolution microscopy, photographed, and arranged into a standardized karyogram."
+    ],
+    "tip": "خطوات عمل الكاريوتايبينج: 1. جمع الخلايا, 2. تحفيز الانقسام بـ PHA, 3. إيقاف الخلايا عند Metaphase بواسطة Colchicine, 4. نفخ الخلايا بـ Hypotonic solution, 5. التثبيت والصبغ بـ G-banding."
+  },
+  {
+    "id": "meq_gov_histo_6",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Explain the technique of Fluorescence In Situ Hybridization (FISH) and name two specific clinical applications.",
+    "points": [
+      "• Technique Description:",
+      "  - FISH utilizes single-stranded, fluorescently labeled DNA or RNA probes designed to hybridize with high specificity to complementary target DNA sequences directly on glass slide preparations of chromosomes or interphase nuclei.",
+      "  - Can be performed on non-dividing (interphase) cells without prolonged tissue culture, with very high resolution for detecting micro-abnormalities below conventional G-banding resolution (<5 Mb).",
+      "• Two Specific Clinical Applications:",
+      "  1. Detection of Microdeletion Syndromes: e.g., identifying 22q11.2 microdeletion in DiGeorge syndrome, or 15q11-q13 deletion in Prader-Willi / Angelman syndromes.",
+      "  2. Oncology / Cancer Translocations & Gene Amplifications: e.g., detecting the BCR-ABL translocation t(9;22) in Chronic Myeloid Leukemia (CML), or HER2/neu amplification in breast cancer."
+    ],
+    "tip": "تقنية FISH: استخدام مجسات DNA فلورية ملونة للكشف عن الطفرات الدقيقة. تطبيقاتها: متلازمة DiGeorge (22q11.2 deletion) وسرطان الدم CML (BCR-ABL translocation)."
+  },
+  {
+    "id": "meq_gov_histo_7",
+    "source": "essay_bank_gov_histo",
+    "subject": "histology",
+    "marks": "Histo Short Answer",
+    "q": "Interpret the chromosome nomenclature 'Xp22.3'.",
+    "points": [
+      "• 'X': Refers to the specific human chromosome (Chromosome X, a sex chromosome).",
+      "• 'p': Designates the short arm of the chromosome ('petit' arm), as opposed to 'q' (long arm).",
+      "• '2': Refers to Region 2 on the short arm (regions are numbered sequentially from centromere outward to telomere).",
+      "• '2': Refers to Band 2 within Region 2.",
+      "• '.3': Designates Sub-band 3 within Band 22 (separated by a decimal point).",
+      "• Summary: 'Xp22.3' describes a precise genomic address: Sub-band 3 of Band 2 in Region 2 on the short arm of the X chromosome."
+    ],
+    "tip": "تفسير تسمية الكروموسوم Xp22.3: الحرف X (الكروموسوم), الحرف p (الذراع القصير), الرقم 22 (المنطقة 2 والنطاق 2), والرقم .3 (النطاق الفرعي 3)."
+  },
 ];

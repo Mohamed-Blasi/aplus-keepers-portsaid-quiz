@@ -554,6 +554,66 @@ window.APP_CONFIG = {
       badge: "10 أسئلة أساسية 🩺",
       durationMinutes: 15,
       description: "أسئلة قسم الباثولوجي الأساسية على مقدمة علم الأمراض (Biopsy, Autopsy, Etiology, Pathogenesis, Morphology, Complications)."
+    },
+    {
+      id: "bank_gov_histo_lec1",
+      category: "subject_bank",
+      title: "بنك الهستولوجي - المحاضرة 1 (Microtechniques)",
+      subtitle: "Histology Lec 1 - Paraffin, Celloidin & Freezing Techniques",
+      year: "حكومية 2027",
+      badge: "حكومية 🔬",
+      durationMinutes: 20,
+      description: "أسئلة الكلية الحكومية على طرق التحضير المجهري، مزايا وعيوب كل طريقة، وخطوات التثبيت والتجفيف والترويق."
+    },
+    {
+      id: "bank_gov_histo_lec2",
+      category: "subject_bank",
+      title: "بنك الهستولوجي - المحاضرة 2 (Advanced Techniques & Stains)",
+      subtitle: "Histology Lec 2 - Special Stains, PAS, Sudan, Feulgen & Culture",
+      year: "حكومية 2027",
+      badge: "حكومية 🔬",
+      durationMinutes: 20,
+      description: "أسئلة الكلية الحكومية على الصبغات الخاصة، صبغ الجليكوجين والدهون والحمض النووي، وزراعة الأنسجة والتهجين."
+    },
+    {
+      id: "bank_gov_histo_lec3",
+      category: "subject_bank",
+      title: "بنك الهستولوجي - المحاضرة 3 (Chromosomes & Karyotyping)",
+      subtitle: "Histology Lec 3 - Metaphase, G-Banding, Colchicine & Decoding",
+      year: "حكومية 2027",
+      badge: "حكومية 🔬",
+      durationMinutes: 25,
+      description: "أسئلة الكلية الحكومية على الكروموسومات، إيقاف الخلايا بـ Colchicine، خطوات الكاريوتايبينج، والترقيم الجيني."
+    },
+    {
+      id: "bank_gov_histo_scenarios",
+      category: "subject_bank",
+      title: "الهستولوجي - سيناريوهات إكلينيكية وتطبيقات عملية",
+      subtitle: "Clinical Scenarios & Case Applications in Histology",
+      year: "حكومية 2027",
+      badge: "حالات وتطبيقات ⭐",
+      durationMinutes: 25,
+      description: "20 سؤال سيناريو إكلينيكي تطبيقي لربط تقنيات الهستولوجي بالتشخيص الطبي وتحضير العينات المرضية."
+    },
+    {
+      id: "bank_gov_histo_ospe",
+      category: "subject_bank",
+      title: "الهستولوجي - عملي OSPE (Practical MCQs)",
+      subtitle: "OSPE Histology Practical Questions & Instrument Identification",
+      year: "حكومية 2027",
+      badge: "عملي OSPE 🥼",
+      durationMinutes: 15,
+      description: "أسئلة الامتحان العملي OSPE للتعرف على الصبغات المجهرية تحت الميكروسكوب والميكروتوم والأنسجة."
+    },
+    {
+      id: "bank_gov_pharma",
+      category: "subject_bank",
+      title: "بنك الفارماكولوجي - أسئلة وتجميعات الكلية الحكومية",
+      subtitle: "Pharmacology MCQs - Introduction, ADME & Pharmacodynamics",
+      year: "حكومية 2027",
+      badge: "حكومية 💊",
+      durationMinutes: 30,
+      description: "أسئلة الفارماكولوجي الجديدة المضافة من الكلية الحكومية لتغطية طرق الإعطاء، الحركية الدوائية، والسمية وحقوق إعطاء الدواء."
     }
   ],
 
